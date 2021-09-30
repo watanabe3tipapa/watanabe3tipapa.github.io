@@ -6,7 +6,7 @@
 2021.9.30 にリニューアルしました。
 
 ---
-MarkdownのEditorはVS Codeを使用しています。
+Markdown files are mainly written using codespaces.
 
 
 
