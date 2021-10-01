@@ -15,7 +15,7 @@ MarkdownのEditorはVS Codeを使用しています。
  
 リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
 
-[001](HowtoexecutefromTerminal001.md"") 
+[001](HowtoexecutefromTerminal001.md) 
 
  
 # Requirement
