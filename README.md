@@ -1,46 +1,51 @@
 # Weblog --- watanabe3tipapa.github.io
  
-このページは Bricoleur：watanabe3tipapa のポータルです。
+このページはBricoleur：watanabe3tipapaのポータルです。
 
-2021.9.30 にリニューアルしました。 
+2021.9.30にリニューアルしました。 
  
-# EDITOR
- 
-MarkdownのEditorは VS Code を使用しています。
- 
+MarkdownのEditorはVS Codeを使用しています。
+
+# Topics
+
+"ターミナルから実行"シリーズを開始しました。
+
+
 # Features
  
-未定
+リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
+
+[001](HowtoexecutefromTerminal001.md"") 
+
  
 # Requirement
  
-未定
- 
-* w3ti 1.0.2
-* papa3 1.0.0
+* curl 7.64.1
+* wget 1.21.2
  
 # Installation
  
 インストール方法:未定
  
+(macOS)
 ```bash
-pip install w3ti
+brew update
+brew install curl
 ```
  
 # Usage
  
-使い方:未定
+ 001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
  
 ```bash
-git clone https://lab.watanabe3ti.com/env/~
-cd examples
-bash start_w2ti.sh
+sudo curl ...
 ```
  
 # Note
  
 このREADMEは現時点ではドラフト版です。
-サービス公開の準備が整い次第、更新いたします。
+サービス公開の準備がもっと整い次第、更新いたします。
+2021.10.1
  
 # Author
  
