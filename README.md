@@ -16,16 +16,17 @@ MarkdownのEditorはVS Codeを使用しています。
 リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
 
 [001](HowtoexecutefromTerminal001.md) 
-
+[002](HowtoexecutefromTerminal002.md) 
  
 # Requirement
  
 * curl 7.64.1
 * wget 1.21.2
+* jq 1.6
  
 # Installation
  
-インストール方法:未定
+インストール方法
  
 (macOS)
 ```bash
@@ -36,6 +37,7 @@ brew install curl
 # Usage
  
  001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
+ 002回はちょいと長めです。
  
 ```bash
 sudo curl ...
