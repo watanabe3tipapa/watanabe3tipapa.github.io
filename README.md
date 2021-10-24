@@ -53,4 +53,4 @@ sudo curl ...
  
 * 作成者：　わたなべさんちパパ
 * 所属　：  .&-（watanabe3tiLab）
-* E-mail：　twpoet@nifty.com
+* E-mail：　〜〜〜〜〜〜
