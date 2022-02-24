@@ -2,13 +2,14 @@
  
 このページはBricoleur：watanabe3tipapaのポータルです。
 
-2021.9.30にリニューアルしました。 
+2021.9.30にリニューアルしました。 (2022.2.24 正式リニューアル)
+
  
-MarkdownのEditorはVS Codeを使用しています。
+この間、MarkdownのEditorは Sublime Text に変更しました。
 
 # Topics
 
-"ターミナルから実行"シリーズを開始しました。
+"ターミナルから実行"シリーズを開始しました。（2021.9.30）
 
 
 # Features
@@ -45,12 +46,11 @@ sudo curl ...
  
 # Note
  
-このREADMEは現時点ではドラフト版です。
-サービス公開の準備がもっと整い次第、更新いたします。
-2021.10.1
+このREADMEは正式版となりました。
+2022.2.24
  
 # Author
  
-* 作成者：　わたなべさんちパパ
-* 所属　：  .&-（watanabe3tiLab）
-* E-mail：　〜〜〜〜〜〜
+* 作成者：　watanabe3tipapa@chombo
+* お仕事：  Toolsmith
+* 所属　：　.&-（watanabe3tiLab）　
