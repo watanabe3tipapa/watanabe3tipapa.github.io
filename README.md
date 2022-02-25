@@ -39,7 +39,7 @@ brew install curl
  
 # Usage
 
-<details><summary（シリーズ）ターミナルの仕業</summary>
+<details><summary>（シリーズ）ターミナルの仕業について</summary>
 
 001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。  
 
@@ -60,8 +60,8 @@ sudo curl ...
  
 # Note
  
-このREADMEは正式版となりました。
-2022.2.24
+このREADMEは正式版となりました。  
+（2022.2.24）
  
 # Author
  
