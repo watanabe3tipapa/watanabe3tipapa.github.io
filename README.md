@@ -9,13 +9,15 @@
 
 # Topics
 
-"ターミナルの仕業"シリーズを開始しました。（2021.9.30）
-"Re:StartPC"シリーズを近日中に公開します。（2022.2.25）
+"ターミナルの仕業"シリーズを開始しました。（2021.9.30）  
+
+"Re:StartPC"シリーズを近日中に公開します。（2022.2.25）  
 
 
 # Features
  
 [ターミナルの仕業](HowtoexecutefromTerminal.md)  
+
 Re:StartPC（=>準備中）
 # Requirement
  
@@ -43,7 +45,8 @@ brew install curl
 002回はちょいと長めのコマンドです。
 003回は、いまさらですが、MP3生成という内容になっています。
 
-</details>
+</details>  
+
 
  
 ```bash
