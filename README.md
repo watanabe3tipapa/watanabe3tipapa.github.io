@@ -16,32 +16,35 @@
  
 リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
 
-[001](HowtoexecutefromTerminal001.md) 
-[002](HowtoexecutefromTerminal002.md)
-[003](HowtoexecutefromTerminal003.md) 
- 
+[ターミナルの仕業](HowtoexecutefromTerminal.md)  
 # Requirement
  
 * curl 7.64.1
 * wget 1.21.2
 * jq 1.6
 * youtube-dl（Python）
+* ・・・
  
 # Installation
  
 インストール方法  
  
-(macOS)
+(macOS)　事例：curl
 ```bash
 brew update
 brew install curl
 ```
  
 # Usage
- 
- 001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
- 002回はちょいと長めです。
- 003回は、いまさら"MP3"という内容になっています。
+
+<details><summary>ターミナルの仕業</summary>
+
+001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
+002回はちょいと長めのコマンドです。
+003回は、いまさらですが、MP3生成という内容になっています。
+
+</details>
+
  
 ```bash
 sudo curl ...
