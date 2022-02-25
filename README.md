@@ -9,14 +9,14 @@
 
 # Topics
 
-"ターミナルから実行"シリーズを開始しました。（2021.9.30）
+"ターミナルの仕業"シリーズを開始しました。（2021.9.30）
+"Re:StartPC"シリーズを近日中に公開します。（2022.2.25）
 
 
 # Features
  
-リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
-
 [ターミナルの仕業](HowtoexecutefromTerminal.md)  
+Re:StartPC（=>準備中）
 # Requirement
  
 * curl 7.64.1
@@ -37,7 +37,7 @@ brew install curl
  
 # Usage
 
-<details><summary>ターミナルの仕業</summary>
+<details><summary（シリーズ）ターミナルの仕業</summary>
 
 001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
 002回はちょいと長めのコマンドです。
