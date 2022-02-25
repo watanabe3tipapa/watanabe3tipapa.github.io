@@ -17,17 +17,19 @@
 リポジトリのリニューアルにともない、まずシリーズ"ターミナルから実行"を掲載します。
 
 [001](HowtoexecutefromTerminal001.md) 
-[002](HowtoexecutefromTerminal002.md) 
+[002](HowtoexecutefromTerminal002.md)
+[003](HowtoexecutefromTerminal003.md) 
  
 # Requirement
  
 * curl 7.64.1
 * wget 1.21.2
 * jq 1.6
+* youtube-dl（Python）
  
 # Installation
  
-インストール方法
+インストール方法  
  
 (macOS)
 ```bash
@@ -39,6 +41,7 @@ brew install curl
  
  001回はとりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。
  002回はちょいと長めです。
+ 003回は、いまさら"MP3"という内容になっています。
  
 ```bash
 sudo curl ...
@@ -51,6 +54,6 @@ sudo curl ...
  
 # Author
  
-* 作成者：　watanabe3tipapa@chombo
-* お仕事：  Toolsmith
-* 所属　：　.&-（watanabe3tiLab）　
+* 作成者：watanabe3tipapa@chombo
+* お仕事：Toolsmith
+* 所属　：.&-（watanabe3tiLab）  
