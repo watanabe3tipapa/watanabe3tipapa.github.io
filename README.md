@@ -20,23 +20,17 @@
 
 Re:StartPC（=>準備中）
 # Requirement
+このページで紹介しているもの
  
 * curl 7.64.1
 * wget 1.21.2
 * jq 1.6
-* youtube-dl（Python）
-* jhead 
+* youtube-dl v2021.12.17
+* jhead 3.06
  
 # Installation
  
-インストール方法  
- 
-(macOS)　事例：curl
-```bash
-brew update
-brew install curl
-```
- 
+当面、別掲とします
 # Usage
 
 <details><summary>（シリーズ）ターミナルの仕業について</summary>
@@ -52,14 +46,6 @@ brew install curl
 
 </details> .   
 
-
-
-
- 
-```bash
-sudo curl ...
-```
- 
 # Note
  
 このREADMEは正式版となりました。  
