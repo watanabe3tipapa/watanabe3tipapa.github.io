@@ -18,10 +18,7 @@
 [003回](/HowtoexecutefromTerminal/003kai.md)"YouTube動画をMP3化" .   
 
 [004回](/HowtoexecutefromTerminal/004kai.md)"JPEGファイルのEXIF情報を削除".   
-
-[005回]>準備中 .   
-
-
+ 
 </details>
 
 ---
