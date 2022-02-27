@@ -5,10 +5,6 @@
 メインBLOGの"パソコン・インターネット"カテゴリー記事と関連するものを載せていきます。  
 
 
-
-
-
-
 <details><summary>実行例</summary>
 
 [001回](/HowtoexecutefromTerminal/001kai.md)"天気予報" .   
@@ -19,7 +15,7 @@
 
 [004回](/HowtoexecutefromTerminal/004kai.md)"JPEGファイルのEXIF情報を削除".   
  
-</details>
+</details> . 
 
----
+
 
