@@ -53,6 +53,6 @@ Re:StartPC（=>準備中）
  
 # Author
  
-* 作成者：watanabe3tipapa@chombo
+* 作成者：chombo@watanabe3tipapa
 * お仕事：Toolsmith
 * 所属　：.&-（watanabe3tiLab）  
