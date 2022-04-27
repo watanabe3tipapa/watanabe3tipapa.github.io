@@ -1,4 +1,4 @@
-layout: page
+layout: default
 title: ターミナルの仕業
 permalink: /
 
