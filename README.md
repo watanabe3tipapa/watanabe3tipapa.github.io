@@ -1,8 +1,3 @@
-layout: default
-title: トップページ
-permalink: /
-
-
 # Weblog --- watanabe3tipapa.github.io
  
 このページはBricoleur：watanabe3tipapaのポータルです。
