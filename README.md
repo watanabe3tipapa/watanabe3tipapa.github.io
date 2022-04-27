@@ -1,7 +1,6 @@
----
-layout: default
+layout: page
 title: トップページ
----
+permalink: /
 
 
 # Weblog --- watanabe3tipapa.github.io
