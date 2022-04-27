@@ -14,7 +14,7 @@
 
 [004回](/HowtoexecutefromTerminal/004kai.md)"JPEGファイルのEXIF情報を削除".  
 
-[005回] "近日公開".  
+[005回](/HowtoexecutefromTerminal/005kai.md)"Google ColaboratoryにSSH接続する方法（ngrok）".  
  
 
 
