@@ -1,7 +1,3 @@
-layout: default
-title: ターミナルの仕業
-permalink: /
-
 #ターミナルの仕業
 
 ---
