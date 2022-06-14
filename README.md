@@ -56,3 +56,5 @@ Re:StartPC（=>準備中）
 * 作成者：chombo@watanabe3tipapa
 * お仕事：Toolsmith
 * 所属　：.&-（watanabe3tiLab）  
+
+:musical_score:
