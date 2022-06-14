@@ -47,14 +47,14 @@ Re:StartPC（=>準備中）
 </details> .   
 
 # Note
- 
+:computer:
 このREADMEは正式版となりました。  
 （2022.2.24）
  
 # Author
- 
+:open_file_folder:
 * 作成者：chombo@watanabe3tipapa
 * お仕事：Toolsmith
 * 所属　：.&-（watanabe3tiLab）  
 
-:musical_score:
+
