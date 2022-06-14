@@ -47,7 +47,7 @@ Re:StartPC（=>準備中）
 </details> .   
 
 # Note
-:computer:
+:computer: 
 このREADMEは正式版となりました。  
 （2022.2.24）
  
