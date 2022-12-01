@@ -12,7 +12,7 @@
 
 "Re:Start PC"シリーズを近日中に公開します。（2022.2.25）
 
-"Re:Start PC ACTION"を公開しました。（2022.11.24）
+"[URL](https://restart-pc.super.site/ "Re:Start PC ACTION")を公開しました。（2022.11.24）
 
 
 # Features
