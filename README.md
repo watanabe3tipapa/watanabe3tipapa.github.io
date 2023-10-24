@@ -37,13 +37,13 @@ Re:StartPC（=>準備中）
 
 <details><summary>（シリーズ）ターミナルの仕業について</summary>
 
-001回は、とりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。  
+[001回](./HowtoexecutefromTerminal/001kai.md)は、とりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。  
 
-002回は、ちょいと長めのコマンドです。  
+[002回](./HowtoexecutefromTerminal/002kai.md)回は、ちょいと長めのコマンドです。  
 
-003回は、いまさらですが、MP3生成という内容になっています。  
+[003回](./HowtoexecutefromTerminal/003kai.mid)は、いまさらですが、MP3生成という内容になっています。  
 
-004回は、コマンドライン上でJPEGファイルのEXIF情報を削除する方法です。
+[004回](./HowtoexecutefromTerminal/004kai.md)は、コマンドライン上でJPEGファイルのEXIF情報を削除する方法です。
 
 
 </details> .   
