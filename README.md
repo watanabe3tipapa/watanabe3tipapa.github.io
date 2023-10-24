@@ -35,11 +35,11 @@ Re:StartPC（=>準備中）
 当面、別掲とします
 # Usage
 
-<details><summary>（シリーズ）ターミナルの仕業について</summary>
+<details><summary>（ワークショップ用）ターミナルの仕業について</summary>
 
 [001回](./HowtoexecutefromTerminal/001kai.md)は、とりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。  
 
-[002回](./HowtoexecutefromTerminal/002kai.md)回は、ちょいと長めのコマンドです。  
+[002回](./HowtoexecutefromTerminal/002kai.md)は、ちょいと長めのコマンドです。  
 
 [003回](./HowtoexecutefromTerminal/003kai.mid)は、いまさらですが、MP3生成という内容になっています。  
 
