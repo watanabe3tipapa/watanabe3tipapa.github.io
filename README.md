@@ -1,8 +1,9 @@
-# Weblog --- watanabe3tipapa.github.io
+# watanabe3tipapa.github.io
  
 このページはBricoleur：watanabe3tipapaのポータルです。
 
 2021.9.30にリニューアルしました。 (2022.2.24 正式リニューアル)
+2023.10.24に修正開始。
 
 
 
@@ -21,7 +22,7 @@
 
 Re:StartPC（=>準備中）
 # Requirement
-このページで紹介しているもの
+このページで紹介していたもの
  
 * curl 7.64.1
 * wget 1.21.2
@@ -56,6 +57,6 @@ Re:StartPC（=>準備中）
 :open_file_folder:
 * 作成者：chombo@watanabe3tipapa
 * お仕事：Toolsmith
-* 所属　：.&-（watanabe3tiLab）  
+* 所属　：.&-  
 
 
