@@ -21,8 +21,7 @@
 :keyboard:
 
  
-[ターミナルの仕業]
-(HowtoexecutefromTerminal.md)  
+[ターミナルの仕業](.HowtoexecutefromTerminal.md)  
 
 
 
