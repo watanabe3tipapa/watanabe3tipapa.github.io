@@ -1,38 +1,55 @@
-# Weblog --- watanabe3tipapa.github.io
+# watanabe3tipapa.github.io
  
 このページはBricoleur：watanabe3tipapaのポータルです。
 
-2021.9.30にリニューアルしました。 (2022.2.24 正式リニューアル)
+2021-09-30にリニューアルしました。 
+(2022-02-24 正式リニューアル)
 
 
 
 # Topics
+:writing_hand:
 
-"ターミナルの仕業"シリーズを開始しました。（2021.9.30）  
+"ターミナルの仕業"シリーズをワークショップ用に開始。（2021-09-30）  
 
-"Re:Start PC"シリーズを近日中に公開します。（2022.2.25）
+"Re:Start PC"シリーズを公開準備。（2022-02-25）
 
-["Re:Start PC" site](https://restart-pc.super.site/ "Re:Start PC ACTION")を公開しました。（2022.11.24）
+["Re:Start PC" site](https://restart-pc.super.site/ "Re:Start PC ACTION")を公開しました。（2022-11-24）
 
 
-# Features
+# Features	
+:keyboard:
+
  
-[ターミナルの仕業](HowtoexecutefromTerminal.md)  
+[ターミナルの仕業]
+(HowtoexecutefromTerminal.md)  
+
+
 
 Re:StartPC（=>準備中）
 # Requirement
-このページで紹介しているもの
+:gear:
+
+
+<details><summary>このページで紹介してきたもの</summary>
  
 * curl 7.64.1
 * wget 1.21.2
 * jq 1.6
 * youtube-dl v2021.12.17
 * jhead 3.06
- 
+
+</details> .   
+  
+
 # Installation
+:desktop_computer:
  
-当面、別掲とします
+当面、別掲とします 
+  
+
 # Usage
+:bookmark_tabs:
 
 <details><summary>（シリーズ）ターミナルの仕業について</summary>
 
@@ -48,14 +65,15 @@ Re:StartPC（=>準備中）
 </details> .   
 
 # Note
-:computer: 
+:pen: 
 このREADMEは正式版となりました。  
-（2022.2.24）
+（2022-02-24）
  
 # Author
-:open_file_folder:
+:ninja:
 * 作成者：chombo@watanabe3tipapa
 * お仕事：Toolsmith
-* 所属　：.&-（watanabe3tiLab）  
-
-
+* 所属　：.&- (Dot and Dash) 
+  
+---
+^C
