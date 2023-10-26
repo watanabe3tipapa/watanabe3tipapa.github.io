@@ -75,4 +75,6 @@ Re:StartPC（=>準備中）
 * 所属　：.&- (Dot and Dash) 
   
 ---
+> emoji 😭  not :xxxxx: 
+
 ^C
