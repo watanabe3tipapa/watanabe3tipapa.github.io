@@ -60,6 +60,8 @@ Re:StartPC（=>準備中）
 
 004回は、コマンドライン上でJPEGファイルのEXIF情報を削除する方法です。
 
+005回は、Google ColaboratoryにSSH接続する方法（ngrok）:stop: です。 
+
 
 </details> .   
 
@@ -67,6 +69,9 @@ Re:StartPC（=>準備中）
 :pen: 
 このREADMEは正式版となりました。  
 （2022-02-24）
+:pen:
+管理リポジトリ（GitHub-pages）の改修開始。
+（2024-11-15）
  
 # Author
 :ninja:
