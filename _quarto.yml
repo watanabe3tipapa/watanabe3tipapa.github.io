@@ -4,7 +4,7 @@ website:
   title: "watanabe3tipapa.github.io"                                # Your name
   description: "New Style"   # A brief slogan (optional)
   image: assets/bg.jpg
-  favicon: assets/github-icon.png
+  favicon: assets/favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -43,9 +43,9 @@ website:
     left: |
       <span class="faux-block">&#169; 2024 watanabe3tipapa CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://next.watanabe3ti.com/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html/">View the tutorial for this template!</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/watanabe3tipapa/watanabe3tipapa.github.io">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/">View source on GitHub</a></span>
 
 project:
   type: website

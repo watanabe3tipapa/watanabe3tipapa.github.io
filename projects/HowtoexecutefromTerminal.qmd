@@ -12,14 +12,14 @@ title: "ターミナルの仕業"
 
 ------------------------------------------------------------------------
 
-[001回"](https://watanabe3tipapa.github.io/projects/projects/HowtoexecutefromTerminal/001kai.html)天気予報" .
+[001回](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal/001kai.html)"天気予報" .
 
-[002回](https://watanabe3tipapa.github.io/projects/projects/HowtoexecutefromTerminal/002kai.html)"郵便番号" .
+[002回](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal/002kai.html)"郵便番号" .
 
-[003回](https://watanabe3tipapa.github.io/projects/projects/HowtoexecutefromTerminal/003kai.html)"YouTube動画をMP3化" .
+[003回](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal/003kai.html)"YouTube動画をMP3化" .
 
-[004回](https://watanabe3tipapa.github.io/projects/projects/HowtoexecutefromTerminal/004kai.html)"JPEGファイルのEXIF情報を削除".
+[004回](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal/004kai.html)"JPEGファイルのEXIF情報を削除".
 
-[005回"](https://watanabe3tipapa.github.io/projects/projects/HowtoexecutefromTerminal/005kai.html)Google ColaboratoryにSSH接続する方法（ngrok）".
+[005回"](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal/005kai.html)Google ColaboratoryにSSH接続する方法（ngrok）".
 
 ------------------------------------------------------------------------
