@@ -21,7 +21,7 @@
 :keyboard:
 
  
-[ターミナルの仕業](/projects/HowtoexecutefromTerminal/kai.qmd)  
+[ターミナルの仕業](/projects/HowtoexecutefromTerminal/HowtoexecutefromTerminal.qmd)  
 
 
 
