@@ -43,7 +43,7 @@ website:
     left: |
       <span class="faux-block">&#169; 2024 watanabe3tipapa CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html">View the tutorial for this template!</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/">View source on GitHub</a></span>
 
