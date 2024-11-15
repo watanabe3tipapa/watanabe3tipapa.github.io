@@ -16,10 +16,14 @@ about:
 
 # Projects
 
+<!--# 旧コンテンツへのリンク -->
+
 ## old
 
-### [HowtoexecutefromTerminal](projects/HowtoexecutefromTerminal/kai.qmd)
+### [HowtoexecutefromTerminal](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal.html)
+
+extra
 
 ## NEW
 
-![](/assets/UC900.png){fig-align="center"}
+**coming soon**
