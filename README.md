@@ -50,7 +50,8 @@ Re:StartPC（=>準備中）
 # Usage
 :bookmark_tabs:
 
-<details><summary>（シリーズ）ターミナルの仕業について</summary>
+<details><summary>（Projects）ターミナルの仕業について</summary>
+
 
 001回は、とりあえずターミナルで何かをやってみたい人向けの紹介となっていますので悪しからず。  
 
