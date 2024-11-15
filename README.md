@@ -71,7 +71,7 @@ Re:StartPC（=>準備中）
 （2022-02-24）
  
 :pen:
-管理リポジトリ（GitHub-pages）の改修開始。
+管理リポジトリ（GitHub-pages）の改修開始。 
 （2024-11-15）
  
 # Author
