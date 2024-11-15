@@ -1,11 +1,6 @@
-
----
-title: "README"
----
-
 # watanabe3tipapa.github.io
  
-このページはBricoleur：watanabe3tipapaのポータルです。
+**このページはBricoleur：watanabe3tipapaのもうひとつのポータルです**
 
 2021-09-30にリニューアルしました。 
 (2022-02-24 正式リニューアル)
