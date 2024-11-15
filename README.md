@@ -26,7 +26,7 @@ title: "README"
 :keyboard:
 
  
-[ターミナルの仕業](/projects/HowtoexecutefromTerminal/HowtoexecutefromTerminal.qmd)  
+[ターミナルの仕業](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal.html)  
 
 
 
