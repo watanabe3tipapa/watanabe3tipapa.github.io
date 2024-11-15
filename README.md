@@ -67,13 +67,14 @@ Re:StartPC（=>準備中）
 
 # Note
 :pen: 
-このREADMEは正式版となりました。  
+このREADMEは正式版となりました。　　
 （2022-02-24）
  
 :pen:
-管理リポジトリ（GitHub-pages）の改修開始。 
+管理リポジトリ（GitHub-pages）の改修開始。　　
 （2024-11-15）
- 
+
+
 # Author
 :ninja:
 * 作成者：chombo@watanabe3tipapa
