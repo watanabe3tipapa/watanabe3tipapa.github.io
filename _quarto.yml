@@ -1,0 +1,76 @@
+# This file controls the settings for your Quarto template from github.com:watanabe3tipapa/watanabe3tipapa.github.io
+# website settings
+website:
+  title: "watanabe3tipapa.github.io"                                # Your name
+  description: "New Style"   # A brief slogan (optional)
+  image: assets/bg.jpg
+  favicon: assets/github-icon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /assets/logo.png
+    
+    # your sub-pages
+    left:
+      - text: "Projects"
+        href: projects/project.qmd
+      - text: "Articles"
+        href: articles/note.qmd
+      - text: "Internal Link"
+        href: link/link.qmd
+    
+    # your site and social media handles
+    right:
+      - icon: folder-symlink
+        href: https://next.watanabe3ti.com/
+      - icon: facebook
+        href: https://www.facebook.com/watanabe3tipapa
+      - icon: twitter
+        href: https://twitter.com/watanabe3tipapa
+      - icon: github
+        href: https://watanabe3tipapa.github.io/watanabe3tipapa
+      - icon: envelop
+        aria-label: email
+        href: "mailto:toruwatanabe3ti@gmail.com"  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2024 watanabe3tipapa CC BY-SA 4.0</span>
+    center: |
+      <span class="faux-block"><a href="https://next.watanabe3ti.com/">View the tutorial for this template!</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/watanabe3tipapa/next/">View source on GitHub</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 23232
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+
+editor: visual

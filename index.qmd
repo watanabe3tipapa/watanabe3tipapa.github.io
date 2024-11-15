@@ -1,0 +1,21 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "assets/bg.jpg"
+  links:
+    - icon: facebook
+      text: Facebook
+      href: https://facebook.com/watanabe3tipapa 
+    - icon: github
+      text: Github
+      href: https://github.com/watanabe3tipapa
+    - icon: envelope
+      text: Email
+      href: "mailto:mail.toruwatanabe3ti@gmail.com"  
+---
+
+::: {#about-block}
+:::
+
+# Welcome to watanabe3tipapa.github.io!

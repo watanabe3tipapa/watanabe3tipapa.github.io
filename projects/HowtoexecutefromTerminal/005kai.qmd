@@ -1,0 +1,15 @@
+# How to execute from Terminal 005
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+-   ターミナルから実行（番外編）
+
+    Google ColaboratoryにSSH接続する方法（ngrok）
+
+    [ファイル](https://github.com/watanabe3tipapa/GoogleColaboratory/blob/main/method4colab_ssh.ipynb)
+
+    ![open.jpg](/assets/open.jpg) をクリックして試用してみてください。
+
+------------------------------------------------------------------------

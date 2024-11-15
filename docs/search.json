@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "link/link.html",
+    "href": "link/link.html",
+    "title": "Link",
+    "section": "",
+    "text": "Link\n\n\n\n\n\n\nInternal Link\n\n\n\n\n\n\nmain Site\n\n\nnext Site"
+  },
+  {
+    "objectID": "v1.0/extra/weather.html",
+    "href": "v1.0/extra/weather.html",
+    "title": "天気",
+    "section": "",
+    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/003kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/003kai.html",
+    "title": "HowtoexecutefromTerminal003",
+    "section": "",
+    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/005kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/005kai.html",
+    "title": "How to execute from Terminal 005",
+    "section": "",
+    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/004kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/004kai.html",
+    "title": "HowtoexecutefromTerminal004",
+    "section": "",
+    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
+  },
+  {
+    "objectID": "articles/note.html",
+    "href": "articles/note.html",
+    "title": "Note",
+    "section": "",
+    "text": "brew update\nUnicode\nemoji\n⋰\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1 footnote"
+  },
+  {
+    "objectID": "articles/note.html#section",
+    "href": "articles/note.html#section",
+    "title": "Note",
+    "section": "",
+    "text": "Col1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1 footnote"
+  },
+  {
+    "objectID": "projects/extra/weather.html",
+    "href": "projects/extra/weather.html",
+    "title": "天気",
+    "section": "",
+    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/005kai.html",
+    "href": "projects/HowtoexecutefromTerminal/005kai.html",
+    "title": "How to execute from Terminal 005",
+    "section": "",
+    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/001kai.html",
+    "href": "projects/HowtoexecutefromTerminal/001kai.html",
+    "title": "How to execute from Terminal 001",
+    "section": "",
+    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/004kai.html",
+    "href": "projects/HowtoexecutefromTerminal/004kai.html",
+    "title": "HowtoexecutefromTerminal004",
+    "section": "",
+    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
+  },
+  {
+    "objectID": "HowtoexecutefromTerminal.html",
+    "href": "HowtoexecutefromTerminal.html",
+    "title": "watanabe3tipapa.github.io",
+    "section": "",
+    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回“Google ColaboratoryにSSH接続する方法（ngrok）”."
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/002kai.html",
+    "href": "projects/HowtoexecutefromTerminal/002kai.html",
+    "title": "HowtoexecutefromTerminal002",
+    "section": "",
+    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/003kai.html",
+    "href": "projects/HowtoexecutefromTerminal/003kai.html",
+    "title": "HowtoexecutefromTerminal003",
+    "section": "",
+    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/kai.html",
+    "href": "projects/HowtoexecutefromTerminal/kai.html",
+    "title": "HowtoexecutefromTerminal",
+    "section": "",
+    "text": "HowtoexecutefromTerminal\n第１回\n第２回\n第３回\n第４回\n第５回"
+  },
+  {
+    "objectID": "projects/extra/note.html",
+    "href": "projects/extra/note.html",
+    "title": "note",
+    "section": "",
+    "text": "note"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal.html",
+    "href": "v1.0/HowtoexecutefromTerminal.html",
+    "title": "watanabe3tipapa.github.io",
+    "section": "",
+    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回“Google ColaboratoryにSSH接続する方法（ngrok）”."
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/002kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/002kai.html",
+    "title": "HowtoexecutefromTerminal002",
+    "section": "",
+    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/001kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/001kai.html",
+    "title": "How to execute from Terminal 001",
+    "section": "",
+    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
+  },
+  {
+    "objectID": "v1.0/extra/note.html",
+    "href": "v1.0/extra/note.html",
+    "title": "note",
+    "section": "",
+    "text": "note"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to watanabe3tipapa.github.io!",
+    "section": "",
+    "text": "Facebook\n  \n  \n    \n     Github\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome to watanabe3tipapa.github.io!"
+  }
+]
