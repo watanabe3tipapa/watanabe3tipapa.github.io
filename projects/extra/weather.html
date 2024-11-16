@@ -306,7 +306,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/watanabe3tipapa\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -641,7 +641,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><span class="faux-block">© 2024 watanabe3tipapa CC BY-SA 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
-<p><span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html/">View the tutorial for this template!</a></span></p>
+<p><span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html">View the tutorial for this template!</a></span></p>
 </div>
     <div class="nav-footer-right">
 <p><span class="faux-block"><a href="https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/">View source on GitHub</a></span></p>
