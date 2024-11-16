@@ -10,9 +10,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/watanabe3tipapa
-    - icon: envelope
-      text: Email
-      href: "mailto:mail.toruwatanabe3ti@gmail.com"  
 ---
 
 ::: {#about-block}
