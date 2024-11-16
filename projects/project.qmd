@@ -24,6 +24,8 @@ about:
 
 extra
 
+### [Google Colaboratory Archives](https://watanabe3tipapa.github.io/GoogleColaboratory/)
+
 ## NEW
 
 **coming soon**

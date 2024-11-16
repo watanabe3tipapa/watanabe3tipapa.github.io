@@ -18,4 +18,6 @@ about:
 ::: {#about-block}
 :::
 
-# Welcome to watanabe3tipapa.github.io!
+# *Welcome to watanabe3tipapa.github.io!*
+
+***わたしのリモート・リポジトリにようこそ***
