@@ -6,7 +6,7 @@ about:
   links:
     - icon: facebook
       text: Facebook
-      href: https://facebook.com/watanabe3tipapa 
+      href: https://www.facebook.com/toru.watanabe3ti/ 
     - icon: github
       text: Github
       href: https://github.com/watanabe3tipapa

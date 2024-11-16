@@ -5,13 +5,10 @@ about:
   links:
     - icon: facebook
       text: Facebook
-      href: https://facebook.com/watanabe3tipapa 
+      href: https://www.facebook.com/toru.watanabe3ti/ 
     - icon: github
       text: Github
       href: https://github.com/watanabe3tipapa
-    - icon: envelope
-      text: Email
-      href: "mailto:mail.toruwatanabe3ti@gmail.com"  
 ---
 
 # Link
@@ -34,6 +31,6 @@ about:
 ## Internal Link （Limited My GitHub pages）
 :::
 
-### ["/next"](https://watanabe3tipapa.github.io/next/)     next Site（mirror）
+### ["/next"](https://watanabe3tipapa.github.io/next/) next Site（mirror）
 
 ### ・・・
