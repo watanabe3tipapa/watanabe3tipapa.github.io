@@ -22,6 +22,8 @@ website:
     
     # your site and social media handles
     right:
+      - text: "Gist"
+        href: https://gist.github.com/watanabe3tipapa
       - icon: folder-symlink
         href: https://next.watanabe3ti.com/
       - icon: facebook
