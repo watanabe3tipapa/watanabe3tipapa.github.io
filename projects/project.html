@@ -102,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://gist.github.com/watanabe3tipapa"> 
+<span class="menu-text">Gist</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://next.watanabe3ti.com/"> <i class="bi bi-folder-symlink" role="img">
 </i> 
@@ -153,6 +157,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="google-colaboratory-archives" class="level3">
 <h3 data-anchor-id="google-colaboratory-archives"><a href="https://watanabe3tipapa.github.io/GoogleColaboratory/">Google Colaboratory Archives</a></h3>
+</section>
+<section id="github-actions-search-ce-actions-を学習するためのtools" class="level3">
+<h3 data-anchor-id="github-actions-search-ce-actions-を学習するためのtools"><a href="https://github.com/watanabe3tipapa/github-actions-search-ce">github-actions-search-ce</a> : actions を学習するためのTools</h3>
 </section>
 </section>
 <section id="new" class="level2">
@@ -261,7 +268,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/watanabe3tipapa\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
