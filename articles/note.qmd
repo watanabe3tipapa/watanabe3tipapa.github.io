@@ -13,6 +13,8 @@ about:
 
 # Note
 
+![](/assets/IMG_q_p_g.jpg){fig-align="center"}
+
 ### *自由帳*
 
 `brew update`

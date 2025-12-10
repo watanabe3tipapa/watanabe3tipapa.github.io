@@ -28,6 +28,14 @@ about:
 ### ・・・
 
 ::: {.callout-important appearance="simple"}
+## Internal Link （Limited My Notion Site）
+:::
+
+### [Link collection](https://watanabe3tipapa.notion.site/INDEX-watanabetipapa-notion-site-14a0087e251c805ebfb9df23be496e1a)
+
+### ・・・
+
+::: {.callout-important appearance="simple"}
 ## Internal Link （Limited My GitHub pages）
 :::
 
