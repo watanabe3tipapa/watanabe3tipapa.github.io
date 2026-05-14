@@ -1,16 +1,16 @@
 /*-- scss:defaults --*/
 
-// Industrial Dark Palette
-$primary:   #d4880f;
-$secondary: #4488cc;
+// Monochrome Palette
+$primary:   #cccccc;
+$secondary: #999999;
 
 $body-bg:    #1a1a1a;
 $body-color: #e0e0e0;
 
 // Navbar
 $navbar-dark-color:       #e0e0e0;
-$navbar-dark-hover-color: #d4880f;
-$navbar-dark-active-color:#d4880f;
+$navbar-dark-hover-color: #ffffff;
+$navbar-dark-active-color:#ffffff;
 $navbar-padding-y: 1rem;
 
 // Cards
@@ -21,11 +21,11 @@ $card-cap-bg:        #2a2a2a;
 $card-color:         #e0e0e0;
 
 // Links
-$link-color: #d4880f;
-$link-hover-color: #e8a030;
+$link-color: #cccccc;
+$link-hover-color: #ffffff;
 
 // Code
-$code-color: #a0d0a0;
+$code-color: #cccccc;
 $code-bg: #111111;
 
 // Headings
@@ -54,7 +54,7 @@ body {
 
 // Navbar
 .navbar {
-  border-bottom: 2px solid #d4880f;
+  border-bottom: 2px solid #555555;
 }
 
 .navbar-brand img {
@@ -66,7 +66,7 @@ body {
   border-width: 1px;
   transition: border-color 0.2s, transform 0.2s;
   &:hover {
-    border-color: #d4880f;
+    border-color: #888888;
     transform: translateY(-2px);
   }
 }
@@ -79,7 +79,7 @@ body {
   color: #e0e0e0;
   text-decoration: none;
   &:hover {
-    color: #d4880f;
+    color: #ffffff;
   }
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3 {
 
 h1 {
   border-bottom-width: 2px;
-  border-bottom-color: #d4880f;
+  border-bottom-color: #cccccc;
 }
 
 // About block
@@ -146,7 +146,7 @@ h1 {
 
 // Blockquote
 blockquote {
-  border-left: 3px solid #d4880f;
+  border-left: 3px solid #888888;
   padding-left: 1rem;
 }
 
@@ -158,7 +158,7 @@ hr {
 // Table
 .table {
   th {
-    border-top: 2px solid #d4880f;
+    border-top: 2px solid #888888;
   }
 }
 
@@ -169,7 +169,7 @@ hr {
     padding: 0.3rem 0.8rem;
     transition: border-color 0.2s;
     &:hover {
-      border-color: #d4880f;
+      border-color: #888888;
       text-decoration: none;
     }
   }
