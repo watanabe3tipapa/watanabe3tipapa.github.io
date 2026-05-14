@@ -1,143 +1,80 @@
 [
   {
+    "objectID": "SECURITY.html",
+    "href": "SECURITY.html",
+    "title": "Security Policy",
+    "section": "",
+    "text": "If you discover a security vulnerability, please report it by opening an issue on GitHub.\nPlease do not report security vulnerabilities through public GitHub issues for critical concerns.\nTo report a vulnerability, include:\n\nType of issue\nFull paths of source files related to the issue\nSteps to reproduce\nImpact of the issue\n\n\n\n\nWe prefer all communications to be in English or Japanese."
+  },
+  {
+    "objectID": "SECURITY.html#reporting-a-vulnerability",
+    "href": "SECURITY.html#reporting-a-vulnerability",
+    "title": "Security Policy",
+    "section": "",
+    "text": "If you discover a security vulnerability, please report it by opening an issue on GitHub.\nPlease do not report security vulnerabilities through public GitHub issues for critical concerns.\nTo report a vulnerability, include:\n\nType of issue\nFull paths of source files related to the issue\nSteps to reproduce\nImpact of the issue"
+  },
+  {
+    "objectID": "SECURITY.html#preferred-languages",
+    "href": "SECURITY.html#preferred-languages",
+    "title": "Security Policy",
+    "section": "",
+    "text": "We prefer all communications to be in English or Japanese."
+  },
+  {
+    "objectID": "SECURITY_ja.html",
+    "href": "SECURITY_ja.html",
+    "title": "セキュリティポリシー",
+    "section": "",
+    "text": "セキュリティ脆弱性を発見した場合、GitHub Issue で報告してください。\n深刻な問題については、公開GitHub Issueで報告しないでください。\n報告に含める情報：\n\n問題の種類\n関連するソースファイルの完全パス\n再現手順\n問題の影響範囲\n\n\n\n\n英語または日本語での報告を推奨します。"
+  },
+  {
+    "objectID": "SECURITY_ja.html#脆弱性の報告",
+    "href": "SECURITY_ja.html#脆弱性の報告",
+    "title": "セキュリティポリシー",
+    "section": "",
+    "text": "セキュリティ脆弱性を発見した場合、GitHub Issue で報告してください。\n深刻な問題については、公開GitHub Issueで報告しないでください。\n報告に含める情報：\n\n問題の種類\n関連するソースファイルの完全パス\n再現手順\n問題の影響範囲"
+  },
+  {
+    "objectID": "SECURITY_ja.html#推奨言語",
+    "href": "SECURITY_ja.html#推奨言語",
+    "title": "セキュリティポリシー",
+    "section": "",
+    "text": "英語または日本語での報告を推奨します。"
+  },
+  {
     "objectID": "link/link.html",
     "href": "link/link.html",
     "title": "Link",
     "section": "",
-    "text": "Link\n\n\n\n\n\n\nInternal Link （Limited domain name of watanabe3ti.com）\n\n\n\n\n\n\nmain Site\n\n\nnext Site\n\n\ntoolsmith Site\n\n\nlog Site\n\n\n・・・\n\n\n\n\n\n\nInternal Link （Limited My Notion Site）\n\n\n\n\n\n\n\nLink collection\n\n\n・・・\n\n\n\n\n\n\nInternal Link （Limited My GitHub pages）\n\n\n\n\n\n\n\n“/next” next Site（mirror）\n\n\n・・・"
+    "text": "Link\n\n\n\n\n\n\nImportantInternal Link （Limited domain name of watanabe3ti.com）\n\n\n\n\n\n\nmain Site\n\n\nnext Site\n\n\ntoolsmith Site\n\n\nlog Site\n\n\n・・・\n\n\n\n\n\n\nImportantInternal Link （Limited My Notion Site）\n\n\n\n\n\n\n\nLink collection\n\n\n・・・\n\n\n\n\n\n\nImportantInternal Link （Limited My GitHub pages）\n\n\n\n\n\n\n\n“/next” next Site（mirror）\n\n\n・・・"
   },
   {
-    "objectID": "v1.0/extra/weather.html",
-    "href": "v1.0/extra/weather.html",
-    "title": "天気",
+    "objectID": "CONTRIBUTING_ja.html",
+    "href": "CONTRIBUTING_ja.html",
+    "title": "watanabe3tipapa.github.io へのコントリビューション",
     "section": "",
-    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
+    "text": "このプロジェクトへのコントリビューションを検討いただきありがとうございます！\n\n\n\n\n\n既報告のバグかどうか確認\n明確なタイトルと説明でissueを作成\nバグを再現する手順を含める\n関連するラベルを追加（bugなど）\n\n\n\n\n\n既提案かどうか確認\n明確なタイトルと説明でissueを作成\nこの機能がなぜ有用かを説明\n関連するラベルを追加（enhancementなど）\n\n\n\n\n\nリポジトリをフォーク\n機能ブランチを作成 (git checkout -b feature/your-feature)\n変更を加える\nquarto render でサイトがビルドできることを確認\n明確なメッセージでコミット\nフォークにプッシュ\nPull Requestを作成\n\n\n\n\n\n\n一貫したフォーマットを使用\n意味のあるコミットメッセージを書く\n複雑なロジックにはコメントを追加\n必要に応じてドキュメントを更新\n\n\n\n\nコントリビューションすることで、CC BY-SA 4.0 ライセンスの下でコントリビューションがライセンスされることに同意します。"
   },
   {
-    "objectID": "v1.0/HowtoexecutefromTerminal/003kai.html",
-    "href": "v1.0/HowtoexecutefromTerminal/003kai.html",
-    "title": "HowtoexecutefromTerminal003",
+    "objectID": "CONTRIBUTING_ja.html#コントリビューションの方法",
+    "href": "CONTRIBUTING_ja.html#コントリビューションの方法",
+    "title": "watanabe3tipapa.github.io へのコントリビューション",
     "section": "",
-    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
+    "text": "既報告のバグかどうか確認\n明確なタイトルと説明でissueを作成\nバグを再現する手順を含める\n関連するラベルを追加（bugなど）\n\n\n\n\n\n既提案かどうか確認\n明確なタイトルと説明でissueを作成\nこの機能がなぜ有用かを説明\n関連するラベルを追加（enhancementなど）\n\n\n\n\n\nリポジトリをフォーク\n機能ブランチを作成 (git checkout -b feature/your-feature)\n変更を加える\nquarto render でサイトがビルドできることを確認\n明確なメッセージでコミット\nフォークにプッシュ\nPull Requestを作成"
   },
   {
-    "objectID": "v1.0/HowtoexecutefromTerminal/005kai.html",
-    "href": "v1.0/HowtoexecutefromTerminal/005kai.html",
-    "title": "How to execute from Terminal 005",
+    "objectID": "CONTRIBUTING_ja.html#コードスタイル",
+    "href": "CONTRIBUTING_ja.html#コードスタイル",
+    "title": "watanabe3tipapa.github.io へのコントリビューション",
     "section": "",
-    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
+    "text": "一貫したフォーマットを使用\n意味のあるコミットメッセージを書く\n複雑なロジックにはコメントを追加\n必要に応じてドキュメントを更新"
   },
   {
-    "objectID": "v1.0/HowtoexecutefromTerminal/004kai.html",
-    "href": "v1.0/HowtoexecutefromTerminal/004kai.html",
-    "title": "HowtoexecutefromTerminal004",
+    "objectID": "CONTRIBUTING_ja.html#ライセンス",
+    "href": "CONTRIBUTING_ja.html#ライセンス",
+    "title": "watanabe3tipapa.github.io へのコントリビューション",
     "section": "",
-    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
-  },
-  {
-    "objectID": "articles/note.html",
-    "href": "articles/note.html",
-    "title": "Note",
-    "section": "",
-    "text": "brew update\nUnicode\nemoji\n⋰\n\n\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1 footnote"
-  },
-  {
-    "objectID": "articles/note.html#section",
-    "href": "articles/note.html#section",
-    "title": "Note",
-    "section": "",
-    "text": "Col1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1 footnote"
-  },
-  {
-    "objectID": "projects/project.html",
-    "href": "projects/project.html",
-    "title": "Projects",
-    "section": "",
-    "text": "extra\n\n\n\n\n\n\n\n\n\n\ncoming soon"
-  },
-  {
-    "objectID": "projects/project.html#old",
-    "href": "projects/project.html#old",
-    "title": "Projects",
-    "section": "",
-    "text": "extra"
-  },
-  {
-    "objectID": "projects/project.html#new",
-    "href": "projects/project.html#new",
-    "title": "Projects",
-    "section": "",
-    "text": "coming soon"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal/005kai.html",
-    "href": "projects/HowtoexecutefromTerminal/005kai.html",
-    "title": "005",
-    "section": "",
-    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal/003kai.html",
-    "href": "projects/HowtoexecutefromTerminal/003kai.html",
-    "title": "003",
-    "section": "",
-    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal/002kai.html",
-    "href": "projects/HowtoexecutefromTerminal/002kai.html",
-    "title": "002",
-    "section": "",
-    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal/004kai.html",
-    "href": "projects/HowtoexecutefromTerminal/004kai.html",
-    "title": "004",
-    "section": "",
-    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal/001kai.html",
-    "href": "projects/HowtoexecutefromTerminal/001kai.html",
-    "title": "001",
-    "section": "",
-    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
-  },
-  {
-    "objectID": "projects/extra/weather.html",
-    "href": "projects/extra/weather.html",
-    "title": "天気",
-    "section": "",
-    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
-  },
-  {
-    "objectID": "projects/HowtoexecutefromTerminal.html",
-    "href": "projects/HowtoexecutefromTerminal.html",
-    "title": "ターミナルの仕業",
-    "section": "",
-    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\nこれらはワークショップなどの場面で紹介しています。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回”Google ColaboratoryにSSH接続する方法（ngrok）“."
-  },
-  {
-    "objectID": "v1.0/HowtoexecutefromTerminal.html",
-    "href": "v1.0/HowtoexecutefromTerminal.html",
-    "title": "watanabe3tipapa.github.io",
-    "section": "",
-    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回“Google ColaboratoryにSSH接続する方法（ngrok）”."
-  },
-  {
-    "objectID": "v1.0/HowtoexecutefromTerminal/002kai.html",
-    "href": "v1.0/HowtoexecutefromTerminal/002kai.html",
-    "title": "HowtoexecutefromTerminal002",
-    "section": "",
-    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
-  },
-  {
-    "objectID": "v1.0/HowtoexecutefromTerminal/001kai.html",
-    "href": "v1.0/HowtoexecutefromTerminal/001kai.html",
-    "title": "How to execute from Terminal 001",
-    "section": "",
-    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
+    "text": "コントリビューションすることで、CC BY-SA 4.0 ライセンスの下でコントリビューションがライセンスされることに同意します。"
   },
   {
     "objectID": "v1.0/extra/note.html",
@@ -147,10 +84,339 @@
     "text": "note"
   },
   {
+    "objectID": "v1.0/HowtoexecutefromTerminal/001kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/001kai.html",
+    "title": "How to execute from Terminal 001",
+    "section": "",
+    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/002kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/002kai.html",
+    "title": "HowtoexecutefromTerminal002",
+    "section": "",
+    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal.html",
+    "href": "v1.0/HowtoexecutefromTerminal.html",
+    "title": "watanabe3tipapa.github.io",
+    "section": "",
+    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回“Google ColaboratoryにSSH接続する方法（ngrok）”."
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal.html",
+    "href": "projects/HowtoexecutefromTerminal.html",
+    "title": "ターミナルの仕業",
+    "section": "",
+    "text": "#ターミナルの仕業\n\nメインBLOGの”パソコン・インターネット”カテゴリー記事と関連するものを載せていきます。\nこれらはワークショップなどの場面で紹介しています。\n\n001回“天気予報” .\n002回“郵便番号” .\n003回“YouTube動画をMP3化” .\n004回“JPEGファイルのEXIF情報を削除”.\n005回”Google ColaboratoryにSSH接続する方法（ngrok）“."
+  },
+  {
+    "objectID": "projects/extra/weather.html",
+    "href": "projects/extra/weather.html",
+    "title": "天気",
+    "section": "",
+    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/001kai.html",
+    "href": "projects/HowtoexecutefromTerminal/001kai.html",
+    "title": "001",
+    "section": "",
+    "text": "How to execute from Terminal 001\n\n\n\nターミナルから実行（天気予報）\n天気予報\ncurl wttr.in/tokyo\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20210930\n\n\n\n\ncURL（see URL）の入手先\ncurl"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/004kai.html",
+    "href": "projects/HowtoexecutefromTerminal/004kai.html",
+    "title": "004",
+    "section": "",
+    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
+  },
+  {
+    "objectID": "README_ja.html",
+    "href": "README_ja.html",
+    "title": "watanabe3tipapa.github.io",
+    "section": "",
+    "text": "English | 日本語"
+  },
+  {
+    "objectID": "README_ja.html#特徴",
+    "href": "README_ja.html#特徴",
+    "title": "watanabe3tipapa.github.io",
+    "section": "特徴",
+    "text": "特徴\n\nQuarto による静的サイト\nカスタム工業デザインテーマ（ダークカラー）\n「ターミナルの仕業」ワークショップシリーズ\nToolsmith プロジェクトポートフォリオ"
+  },
+  {
+    "objectID": "README_ja.html#ローカル開発",
+    "href": "README_ja.html#ローカル開発",
+    "title": "watanabe3tipapa.github.io",
+    "section": "ローカル開発",
+    "text": "ローカル開発\n# 前提: Quarto のインストール\n# https://quarto.org/docs/get-started/\n\n# ローカルプレビュー\nquarto preview\n\n# docs/ にビルド\nquarto render\n\n# 出力先: docs/（GitHub Pages に公開）"
+  },
+  {
+    "objectID": "README_ja.html#プロジェクト構成",
+    "href": "README_ja.html#プロジェクト構成",
+    "title": "watanabe3tipapa.github.io",
+    "section": "プロジェクト構成",
+    "text": "プロジェクト構成\n.\n├── _quarto.yml          # サイト設定\n├── index.qmd            # トップページ\n├── articles/            # 記事・ノート\n├── projects/            # プロジェクトページ\n│   ├── project.qmd\n│   ├── HowtoexecutefromTerminal/  # ターミナルの仕業シリーズ\n│   └── extra/\n├── link/                # 内部リンク集\n├── html/styles.scss     # カスタム工業テーマ\n├── assets/              # 画像・静的ファイル\n├── docs/                # ビルド出力（公開）\n└── v1.0/                # 旧バージョン（保存）"
+  },
+  {
+    "objectID": "README_ja.html#コントリビューション",
+    "href": "README_ja.html#コントリビューション",
+    "title": "watanabe3tipapa.github.io",
+    "section": "コントリビューション",
+    "text": "コントリビューション\nコントリビューションは大歓迎です！まず CONTRIBUTING.md と CODE_OF_CONDUCT.md をお読みください。"
+  },
+  {
+    "objectID": "README_ja.html#ライセンス",
+    "href": "README_ja.html#ライセンス",
+    "title": "watanabe3tipapa.github.io",
+    "section": "ライセンス",
+    "text": "ライセンス\nコンテンツは CC BY-SA 4.0 のもとで提供されています。"
+  },
+  {
+    "objectID": "README_ja.html#連絡先",
+    "href": "README_ja.html#連絡先",
+    "title": "watanabe3tipapa.github.io",
+    "section": "連絡先",
+    "text": "連絡先\nGitHub: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes\nFocusing on what is best for the overall community\n\nExamples of unacceptable behavior:\n\nThe use of sexualized language or imagery, and sexual attention or advances\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information without explicit permission\nOther conduct which could reasonably be considered inappropriate\n\n\n\n\nProject maintainers are responsible for clarifying and enforcing our standards.\n\n\n\nThis Code of Conduct applies within all community spaces.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers. All complaints will be reviewed promptly.\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to a positive environment:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes\nFocusing on what is best for the overall community\n\nExamples of unacceptable behavior:\n\nThe use of sexualized language or imagery, and sexual attention or advances\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information without explicit permission\nOther conduct which could reasonably be considered inappropriate"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Project maintainers are responsible for clarifying and enforcing our standards."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies within all community spaces."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers. All complaints will be reviewed promptly."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html."
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nIndustrial dark theme (custom SCSS)\nREADME (EN/JA), CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, CHANGELOG\nCard-style project listing on projects page\nQuarto technical notes on articles page\nBadge and supplementary images on top page\n\n\n\n\n\nSite description updated to “Toolsmith Portal”\nCopyright year updated to 2026\nProjects page content refreshed (removed “coming soon”)\nArticles page cleaned up (empty table/footnote removed)\n\n\n\n\n\nJekyll workflow files (.github/workflows/jekyll.yml, jekyll-gh-pages.yml)\n\n\n\n\n\n\n\n\nInitial release with Quarto template"
+  },
+  {
+    "objectID": "CHANGELOG.html#unreleased",
+    "href": "CHANGELOG.html#unreleased",
+    "title": "Changelog",
+    "section": "",
+    "text": "Industrial dark theme (custom SCSS)\nREADME (EN/JA), CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, CHANGELOG\nCard-style project listing on projects page\nQuarto technical notes on articles page\nBadge and supplementary images on top page\n\n\n\n\n\nSite description updated to “Toolsmith Portal”\nCopyright year updated to 2026\nProjects page content refreshed (removed “coming soon”)\nArticles page cleaned up (empty table/footnote removed)\n\n\n\n\n\nJekyll workflow files (.github/workflows/jekyll.yml, jekyll-gh-pages.yml)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "Initial release with Quarto template"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/002kai.html",
+    "href": "projects/HowtoexecutefromTerminal/002kai.html",
+    "title": "002",
+    "section": "",
+    "text": "HowtoexecutefromTerminal002\n\n\n\nターミナルから実行（郵便番号）\n郵便番号：0470013 &gt; “北海道”, “小樽市”, “奥沢”\ncurl --silent \"http://zipcloud.ibsnet.co.jp/api/search?zipcode=0470013\" \\\n  | jq -c '.results[] | [.address1],[.address2],[.address3]'\n\n\n\n結果\n\n\n\n\n\n\nIMGSS20211002dt001.jpg\n\n\n\n\njq の入手先\njq"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/003kai.html",
+    "href": "projects/HowtoexecutefromTerminal/003kai.html",
+    "title": "003",
+    "section": "",
+    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
+  },
+  {
+    "objectID": "projects/HowtoexecutefromTerminal/005kai.html",
+    "href": "projects/HowtoexecutefromTerminal/005kai.html",
+    "title": "005",
+    "section": "",
+    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
+  },
+  {
+    "objectID": "projects/project.html",
+    "href": "projects/project.html",
+    "title": "Projects",
+    "section": "",
+    "text": "ターミナル操作をテーマにしたワークショップシリーズです。\n\n\n\n  \n\n\n\ncurl を使った天気予報の取得方法\n\n\n\n\n\n\n  \n\n\n\ncurl + jq で郵便番号から住所を検索\n\n\n\n\n\n\n  \n\n\n\nyoutube-dl で音声抽出・MP3変換\n\n\n\n\n\n\n  \n\n\n\njhead でコマンドラインからEXIF削除\n\n\n\n\n\n\n  \n\n\n\nngrok 経由で Google Colaboratory に SSH 接続\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n天気予報・雨雲レーダー・地震情報へのリンク\n\n\n\n\n\n\n\n\n\nGoogle Colab 関連アーカイブ\n\n\n\n\n\n\n\n\n\nGitHub Actions 学習ツール"
+  },
+  {
+    "objectID": "projects/project.html#ターミナルの仕業",
+    "href": "projects/project.html#ターミナルの仕業",
+    "title": "Projects",
+    "section": "",
+    "text": "ターミナル操作をテーマにしたワークショップシリーズです。\n\n\n\n  \n\n\n\ncurl を使った天気予報の取得方法\n\n\n\n\n\n\n  \n\n\n\ncurl + jq で郵便番号から住所を検索\n\n\n\n\n\n\n  \n\n\n\nyoutube-dl で音声抽出・MP3変換\n\n\n\n\n\n\n  \n\n\n\njhead でコマンドラインからEXIF削除\n\n\n\n\n\n\n  \n\n\n\nngrok 経由で Google Colaboratory に SSH 接続"
+  },
+  {
+    "objectID": "projects/project.html#extra",
+    "href": "projects/project.html#extra",
+    "title": "Projects",
+    "section": "",
+    "text": "天気予報・雨雲レーダー・地震情報へのリンク\n\n\n\n\n\n\n\n\n\nGoogle Colab 関連アーカイブ\n\n\n\n\n\n\n\n\n\nGitHub Actions 学習ツール"
+  },
+  {
+    "objectID": "articles/note.html",
+    "href": "articles/note.html",
+    "title": "Note",
+    "section": "",
+    "text": "Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Pulse (Bootstrap 5) + カスタム SCSS\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nPulse Theme\n\n\n\n\n\nbrew update\nUnicode / emoji"
+  },
+  {
+    "objectID": "articles/note.html#quarto-技術メモ",
+    "href": "articles/note.html#quarto-技術メモ",
+    "title": "Note",
+    "section": "",
+    "text": "Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Pulse (Bootstrap 5) + カスタム SCSS\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nPulse Theme\n\n\n\n\n\nbrew update\nUnicode / emoji"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/004kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/004kai.html",
+    "title": "HowtoexecutefromTerminal004",
+    "section": "",
+    "text": "HowtoexecutefromTerminal004\n\n\n\nターミナルから実行\n\nまず、jhead を導入しましょう。\n（macOSの場合）\nbrew install jhead\n（ubuntuの場合）\nsudo apt install jhead\njhead のインストールが完了したら準備は完了です\n任意のディレクトリに移動します（事例：ホームディレクトリ）\ncd\nホームディレクトリに対象となるJPEGファイルを保存しておきます\n次のコマンドによりJPEGファイル（事例：IMG_7652.jpeg）のEXIF情報が削除されます\njhead -purejpg IMG_7652.jpeg\n次のコマンドにより確認できます\njhead IMG_7652.jpeg\n\n\n\n結果 コマンドライン上でJPEGファイルのEXIF情報を削除できました。\n\n\n\n\n\n\nIMGSSCLIjhead.jpg"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/005kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/005kai.html",
+    "title": "How to execute from Terminal 005",
+    "section": "",
+    "text": "How to execute from Terminal 005\n\n\n\nターミナルから実行（番外編）\nGoogle ColaboratoryにSSH接続する方法（ngrok）\nファイル\n をクリックして試用してみてください。"
+  },
+  {
+    "objectID": "v1.0/HowtoexecutefromTerminal/003kai.html",
+    "href": "v1.0/HowtoexecutefromTerminal/003kai.html",
+    "title": "HowtoexecutefromTerminal003",
+    "section": "",
+    "text": "HowtoexecutefromTerminal003\n\n\n\nターミナルから実行（CONDA環境）\n任意のディレクトリに移動します（事例：./youtube_dl）\ncd youtube_dl\nアクティベート bash   source youtube/bin/activate\n次のコマンドによりYouTube動画から音声部分を抽出、MP3化します bash   youtube-dl --extract-audio --audio-format mp3 \"動画URL\"\n\n\n\n結果 youtube_dlディレクトリ内にMP3ファイルが生成されます。\n\n\n\n\n\n\nIMGSSytmp3.jpg"
+  },
+  {
+    "objectID": "v1.0/extra/weather.html",
+    "href": "v1.0/extra/weather.html",
+    "title": "天気",
+    "section": "",
+    "text": "天気\n道央の雨雲レーダー(実況) - tenki.jp\n実況天気図 - tenki.jp\n地震情報 - tenki.jp\n小樽市の10日間天気（6時間ごと） - tenki.jp\n北海道の天気 - ウェザーニュース\n\ncURL で”${Location}“天気予報を取得\ncurl wttr.in/otaru\n\nCreated: December 21, 2020 3:52 PM UPLOADED: Yes\nLoaded by watanabe3tipapa@notion"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to watanabe3tipapa.github.io!",
     "section": "",
-    "text": "Facebook\n  \n  \n    \n     Github\n  \n\n\n\n\nWelcome to watanabe3tipapa.github.io!\nわたしのリモート・リポジトリにようこそ"
+    "text": "Facebook\n  \n  \n    \n     Github\n  \n\n\n\n\nWelcome to watanabe3tipapa.github.io!\nBricoleur / Toolsmith のもうひとつのポータル\n\n\n\n\n\n\n\n\n\n\n\n\n「ターミナルの仕業」シリーズ \\ Projects \\ Articles"
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contributing to watanabe3tipapa.github.io",
+    "section": "",
+    "text": "Thank you for considering contributing to this project!\n\n\n\n\n\nCheck if the bug has already been reported\nCreate an issue with a clear title and description\nInclude steps to reproduce the bug\nAdd relevant labels (bug, etc.)\n\n\n\n\n\nCheck if the feature has already been suggested\nCreate an issue with a clear title and description\nExplain why this feature would be useful\nAdd relevant labels (enhancement, etc.)\n\n\n\n\n\nFork the repository\nCreate a feature branch (git checkout -b feature/your-feature)\nMake your changes\nEnsure the site builds with quarto render\nCommit with clear messages\nPush to your fork\nOpen a Pull Request\n\n\n\n\n\n\nUse consistent formatting\nWrite meaningful commit messages\nAdd comments for complex logic\nUpdate documentation if needed\n\n\n\n\nBy contributing, you agree that your contributions will be licensed under the CC BY-SA 4.0 License."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#how-to-contribute",
+    "href": "CONTRIBUTING.html#how-to-contribute",
+    "title": "Contributing to watanabe3tipapa.github.io",
+    "section": "",
+    "text": "Check if the bug has already been reported\nCreate an issue with a clear title and description\nInclude steps to reproduce the bug\nAdd relevant labels (bug, etc.)\n\n\n\n\n\nCheck if the feature has already been suggested\nCreate an issue with a clear title and description\nExplain why this feature would be useful\nAdd relevant labels (enhancement, etc.)\n\n\n\n\n\nFork the repository\nCreate a feature branch (git checkout -b feature/your-feature)\nMake your changes\nEnsure the site builds with quarto render\nCommit with clear messages\nPush to your fork\nOpen a Pull Request"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#code-style",
+    "href": "CONTRIBUTING.html#code-style",
+    "title": "Contributing to watanabe3tipapa.github.io",
+    "section": "",
+    "text": "Use consistent formatting\nWrite meaningful commit messages\nAdd comments for complex logic\nUpdate documentation if needed"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#license",
+    "href": "CONTRIBUTING.html#license",
+    "title": "Contributing to watanabe3tipapa.github.io",
+    "section": "",
+    "text": "By contributing, you agree that your contributions will be licensed under the CC BY-SA 4.0 License."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html",
+    "href": "CODE_OF_CONDUCT_ja.html",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "私たちは、オープンで歓迎されるコミュニティを育成するために、貢献者およびメンテナーとして、年齢、体型、障害、民族性、性別、経験レベル、教育、社会経済的地位、国籍、外見、人種、宗教、性的アイデンティティと指向に関係なく、すべての人にとってハラスメントのない環境を維持することを誓います。\n\n\n\n歓迎される行動：\n\n共感と親切を示す\n異なる意見を尊重する\n建設的なフィードバックを受け入れる\n過ちに対して責任を取り、影響を受けた人々に謝罪する\nコミュニティ全体にとって最善なことに焦点を当てる\n\n容認されない行動：\n\n性的な言葉や画像の使用\n荒らし、侮辱的コメント、個人攻撃\n公的または私的なハラスメント\n明示的な許可なく他者の個人情報を公開する行為\nその他、プロフェッショナルとして不適切と合理的にみなされる行為\n\n\n\n\nプロジェクトメンテナーは、行動規範の基準を明確にし、執行する責任を負います。\n\n\n\nこの行動規範は、すべてのコミュニティスペースに適用されます。\n\n\n\n虐待、ハラスメント、その他不適切な行為はプロジェクトメンテナーに報告してください。すべての苦情は迅速にレビューされます。\n\n\n\nこの行動規範は Contributor Covenant バージョン2.1 を基に作成されています。"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#私たちの約束",
+    "href": "CODE_OF_CONDUCT_ja.html#私たちの約束",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "私たちは、オープンで歓迎されるコミュニティを育成するために、貢献者およびメンテナーとして、年齢、体型、障害、民族性、性別、経験レベル、教育、社会経済的地位、国籍、外見、人種、宗教、性的アイデンティティと指向に関係なく、すべての人にとってハラスメントのない環境を維持することを誓います。"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#標準",
+    "href": "CODE_OF_CONDUCT_ja.html#標準",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "歓迎される行動：\n\n共感と親切を示す\n異なる意見を尊重する\n建設的なフィードバックを受け入れる\n過ちに対して責任を取り、影響を受けた人々に謝罪する\nコミュニティ全体にとって最善なことに焦点を当てる\n\n容認されない行動：\n\n性的な言葉や画像の使用\n荒らし、侮辱的コメント、個人攻撃\n公的または私的なハラスメント\n明示的な許可なく他者の個人情報を公開する行為\nその他、プロフェッショナルとして不適切と合理的にみなされる行為"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#執行責任",
+    "href": "CODE_OF_CONDUCT_ja.html#執行責任",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "プロジェクトメンテナーは、行動規範の基準を明確にし、執行する責任を負います。"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#適用範囲",
+    "href": "CODE_OF_CONDUCT_ja.html#適用範囲",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "この行動規範は、すべてのコミュニティスペースに適用されます。"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#報告",
+    "href": "CODE_OF_CONDUCT_ja.html#報告",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "虐待、ハラスメント、その他不適切な行為はプロジェクトメンテナーに報告してください。すべての苦情は迅速にレビューされます。"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT_ja.html#帰属",
+    "href": "CODE_OF_CONDUCT_ja.html#帰属",
+    "title": "コントリビューター行動規範",
+    "section": "",
+    "text": "この行動規範は Contributor Covenant バージョン2.1 を基に作成されています。"
   }
 ]

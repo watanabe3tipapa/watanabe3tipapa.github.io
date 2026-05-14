@@ -1,0 +1,176 @@
+/*-- scss:defaults --*/
+
+// Industrial Dark Palette
+$primary:   #d4880f;
+$secondary: #4488cc;
+
+$body-bg:    #1a1a1a;
+$body-color: #e0e0e0;
+
+// Navbar
+$navbar-dark-color:       #e0e0e0;
+$navbar-dark-hover-color: #d4880f;
+$navbar-dark-active-color:#d4880f;
+$navbar-padding-y: 1rem;
+
+// Cards
+$card-border-radius: 0;
+$card-border-color:  #3a3a3a;
+$card-bg:            #2a2a2a;
+$card-cap-bg:        #2a2a2a;
+$card-color:         #e0e0e0;
+
+// Links
+$link-color: #d4880f;
+$link-hover-color: #e8a030;
+
+// Code
+$code-color: #a0d0a0;
+$code-bg: #111111;
+
+// Headings
+$headings-font-weight: 700;
+$headings-color: #e0e0e0;
+
+// Borders
+$border-color: #3a3a3a;
+$border-radius: 0;
+
+// Tables
+$table-color: #e0e0e0;
+$table-bg: #2a2a2a;
+$table-border-color: #3a3a3a;
+
+// Blockquotes
+$blockquote-color: #a0a0a0;
+
+/*-- scss:rules --*/
+
+// Base
+body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+// Navbar
+.navbar {
+  border-bottom: 2px solid #d4880f;
+}
+
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+// Cards
+.card {
+  border-width: 1px;
+  transition: border-color 0.2s, transform 0.2s;
+  &:hover {
+    border-color: #d4880f;
+    transform: translateY(-2px);
+  }
+}
+
+.card-img-top {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.card-title a {
+  color: #e0e0e0;
+  text-decoration: none;
+  &:hover {
+    color: #d4880f;
+  }
+}
+
+// Links
+a {
+  text-underline-offset: 2px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Code blocks
+div.sourceCode {
+  border: 1px solid #3a3a3a;
+  border-radius: 0;
+  background-color: #111111;
+}
+
+pre.sourceCode {
+  background-color: #111111;
+}
+
+code {
+  background-color: #1a1a1a;
+  padding: 0.15em 0.4em;
+}
+
+// Headings
+h1, h2, h3 {
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 0.3rem;
+}
+
+h1 {
+  border-bottom-width: 2px;
+  border-bottom-color: #d4880f;
+}
+
+// About block
+.about-image {
+  border: 2px solid #3a3a3a;
+  border-radius: 0;
+}
+
+// Footer
+.page-footer {
+  border-top: 1px solid #3a3a3a;
+  font-size: 0.85em;
+}
+
+// Callout blocks
+.callout {
+  border-radius: 0 !important;
+  border-left-width: 4px !important;
+}
+
+// Search
+.quarto-search {
+  .search-input {
+    border-radius: 0;
+  }
+}
+
+// Blockquote
+blockquote {
+  border-left: 3px solid #d4880f;
+  padding-left: 1rem;
+}
+
+// Horizontal rule
+hr {
+  border-top: 1px solid #3a3a3a;
+}
+
+// Table
+.table {
+  th {
+    border-top: 2px solid #d4880f;
+  }
+}
+
+// Badge-like accent for .about-links
+.about-links {
+  a {
+    border: 1px solid #3a3a3a;
+    padding: 0.3rem 0.8rem;
+    transition: border-color 0.2s;
+    &:hover {
+      border-color: #d4880f;
+      text-decoration: none;
+    }
+  }
+}

@@ -13,18 +13,103 @@ about:
 
 # Projects
 
-<!--# 旧コンテンツへのリンク -->
+## ターミナルの仕業
 
-## old
+ターミナル操作をテーマにしたワークショップシリーズです。
 
-### [HowtoexecutefromTerminal](https://watanabe3tipapa.github.io/projects/HowtoexecutefromTerminal.html)
+<div class="row row-cols-1 row-cols-md-3 g-4">
 
-extra
+<div class="col">
+<div class="card h-100">
+<a href="/projects/HowtoexecutefromTerminal/001kai.qmd">
+<img src="/assets/IMGSS20210930.jpg" class="card-img-top" alt="001">
+</a>
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/HowtoexecutefromTerminal/001kai.qmd">001 : 天気予報を取得</a></h5>
+<p class="card-text">curl を使った天気予報の取得方法</p>
+</div>
+</div>
+</div>
 
-### [Google Colaboratory Archives](https://watanabe3tipapa.github.io/GoogleColaboratory/)
+<div class="col">
+<div class="card h-100">
+<a href="/projects/HowtoexecutefromTerminal/002kai.qmd">
+<img src="/assets/IMGSS20211002dt001.jpg" class="card-img-top" alt="002">
+</a>
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/HowtoexecutefromTerminal/002kai.qmd">002 : 郵便番号検索</a></h5>
+<p class="card-text">curl + jq で郵便番号から住所を検索</p>
+</div>
+</div>
+</div>
 
-### [github-actions-search-ce](https://github.com/watanabe3tipapa/github-actions-search-ce) : actions を学習するためのTools
+<div class="col">
+<div class="card h-100">
+<a href="/projects/HowtoexecutefromTerminal/003kai.qmd">
+<img src="/assets/IMGSSytmp3.jpg" class="card-img-top" alt="003">
+</a>
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/HowtoexecutefromTerminal/003kai.qmd">003 : YouTube動画をMP3化</a></h5>
+<p class="card-text">youtube-dl で音声抽出・MP3変換</p>
+</div>
+</div>
+</div>
 
-## NEW
+<div class="col">
+<div class="card h-100">
+<a href="/projects/HowtoexecutefromTerminal/004kai.qmd">
+<img src="/assets/IMGSSCLIjhead.jpg" class="card-img-top" alt="004">
+</a>
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/HowtoexecutefromTerminal/004kai.qmd">004 : JPEGのEXIF情報を削除</a></h5>
+<p class="card-text">jhead でコマンドラインからEXIF削除</p>
+</div>
+</div>
+</div>
 
-**coming soon**
+<div class="col">
+<div class="card h-100">
+<a href="/projects/HowtoexecutefromTerminal/005kai.qmd">
+<img src="/assets/open.jpg" class="card-img-top" alt="005">
+</a>
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/HowtoexecutefromTerminal/005kai.qmd">005 : ColabにSSH接続</a></h5>
+<p class="card-text">ngrok 経由で Google Colaboratory に SSH 接続</p>
+</div>
+</div>
+</div>
+
+</div>
+
+## extra
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title"><a href="/projects/extra/weather.qmd">天気リンク集</a></h5>
+<p class="card-text">天気予報・雨雲レーダー・地震情報へのリンク</p>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title"><a href="https://watanabe3tipapa.github.io/GoogleColaboratory/">Google Colaboratory Archives</a></h5>
+<p class="card-text">Google Colab 関連アーカイブ</p>
+</div>
+</div>
+</div>
+
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title"><a href="https://github.com/watanabe3tipapa/github-actions-search-ce">github-actions-search-ce</a></h5>
+<p class="card-text">GitHub Actions 学習ツール</p>
+</div>
+</div>
+</div>
+
+</div>

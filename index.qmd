@@ -17,4 +17,16 @@ about:
 
 # *Welcome to watanabe3tipapa.github.io!*
 
-***わたしのリモート・リポジトリにようこそ***
+***Bricoleur / Toolsmith のもうひとつのポータル***
+
+![](assets/UC900.png){fig-align="center" width="300"}
+
+------------------------------------------------------------------------
+
+![](assets/demo-badge.svg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+[「ターミナルの仕業」シリーズ](/projects/HowtoexecutefromTerminal.html) \\
+[Projects](/projects/project.qmd) \\
+[Articles](/articles/note.qmd)

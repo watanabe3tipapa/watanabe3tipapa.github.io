@@ -17,24 +17,43 @@ about:
 
 ### *自由帳*
 
-`brew update`
+## Quarto 技術メモ
 
-Unicode
+### Quarto とは
 
-emoji
+Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。
 
-⋰
+### このサイトの構成
 
-## 🤠
+- **エンジン**: Quarto Website
+- **テーマ**: Pulse (Bootstrap 5) + カスタム SCSS
+- **出力**: `quarto render` → `docs/` ディレクトリに生成
+- **ホスティング**: GitHub Pages（`docs/` を公開）
+
+### 便利なコマンド
+
+```bash
+# ローカルプレビュー（ホットリロード付き）
+quarto preview
+
+# サイトをビルド
+quarto render
+
+# 新規記事を作成
+quarto create article.qmd
+```
+
+### 公式リソース
+
+- [Quarto ドキュメント](https://quarto.org/docs/)
+- [Quarto Gallery](https://quarto.org/docs/gallery/)
+- [Quarto GitHub](https://github.com/quarto-dev/quarto-cli)
+- [Pulse Theme](https://bootswatch.com/pulse/)
 
 ------------------------------------------------------------------------
 
-| Col1 | Col2 | Col3 |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
+### 環境メモ
 
-[^1]
+`brew update`
 
-[^1]: footnote
+Unicode / emoji
