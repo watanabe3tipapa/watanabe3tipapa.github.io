@@ -63,6 +63,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
+  color: #292524;
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 0.85em;
@@ -76,9 +77,18 @@ body {
 }
 
 .navbar-brand {
+  color: #292524;
   font-weight: 800;
   letter-spacing: 0.03em;
   font-size: 1.1em;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: #292524;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
+  color: #0369a1;
 }
 
 // Headings
