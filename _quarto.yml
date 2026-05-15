@@ -2,7 +2,7 @@
 # website settings
 website:
   title: "watanabe3tipapa.github.io"                                # Your name
-  description: "Toolsmith Portal — Swiss Design"
+  description: "Toolsmith Portal — Brutalist-soft"
   image: assets/bg.jpg
   favicon: assets/favicon.png
   
@@ -64,7 +64,7 @@ execute:
 
 format:
   html:
-    fontsize: 1.1em
+    fontsize: 1.15em
     theme: 
       - flatly
       - html/styles.scss
