@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-cli/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.8.27
       - name: Render site
