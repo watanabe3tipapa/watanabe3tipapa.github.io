@@ -49,13 +49,6 @@
     "text": "プロジェクト構成\n.\n├── _quarto.yml          # サイト設定\n├── index.qmd            # トップページ\n├── articles/            # 記事・ノート\n├── projects/            # プロジェクトページ\n│   ├── project.qmd\n│   ├── HowtoexecutefromTerminal/  # ターミナルの仕業シリーズ\n│   └── extra/\n├── link/                # 内部リンク集\n├── html/styles.scss     # カスタム工業テーマ\n├── assets/              # 画像・静的ファイル\n│   └── archive/         # 旧版アーカイブ（v1.0.tar.gz）\n├── docs/                # ビルド出力（公開）\n└── DEV-MEMO.md          # 開発メモ（非公開）"
   },
   {
-    "objectID": "README_ja.html#コントリビューション",
-    "href": "README_ja.html#コントリビューション",
-    "title": "watanabe3tipapa.github.io",
-    "section": "コントリビューション",
-    "text": "コントリビューション\nコントリビューションは大歓迎です！まず CONTRIBUTING.md と CODE_OF_CONDUCT.md をお読みください。"
-  },
-  {
     "objectID": "README_ja.html#ライセンス",
     "href": "README_ja.html#ライセンス",
     "title": "watanabe3tipapa.github.io",
@@ -151,7 +144,7 @@
     "href": "projects/project.html",
     "title": "Projects",
     "section": "",
-    "text": "ターミナル操作をテーマにしたワークショップシリーズです。\n\n\n\n  \n\n\n\ncurl を使った天気予報の取得方法\n\n\n\n\n\n\n  \n\n\n\ncurl + jq で郵便番号から住所を検索\n\n\n\n\n\n\n  \n\n\n\nyoutube-dl で音声抽出・MP3変換\n\n\n\n\n\n\n  \n\n\n\njhead でコマンドラインからEXIF削除\n\n\n\n\n\n\n  \n\n\n\nngrok 経由で Google Colaboratory に SSH 接続\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n天気予報・雨雲レーダー・地震情報へのリンク\n\n\n\n\n\n\n\n\n\nGoogle Colab 関連アーカイブ\n\n\n\n\n\n\n\n\n\nGitHub Actions 学習ツール"
+    "text": "すべてのサイト・サービス一覧は INDEX を参照してください。\n\n\n\n\n\nターミナル操作をテーマにしたワークショップシリーズです。\n\n\n\n  \n\n\n\ncurl を使った天気予報の取得方法\n\n\n\n\n\n\n  \n\n\n\ncurl + jq で郵便番号から住所を検索\n\n\n\n\n\n\n  \n\n\n\nyoutube-dl で音声抽出・MP3変換\n\n\n\n\n\n\n  \n\n\n\njhead でコマンドラインからEXIF削除\n\n\n\n\n\n\n  \n\n\n\nngrok 経由で Google Colaboratory に SSH 接続\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n天気予報・雨雲レーダー・地震情報へのリンク\n\n\n\n\n\n\n\n\n\nGoogle Colab 関連アーカイブ\n\n\n\n\n\n\n\n\n\nGitHub Actions 学習ツール"
   },
   {
     "objectID": "projects/project.html#ターミナルの仕業",
@@ -193,28 +186,42 @@
     "href": "link/link.html",
     "title": "Link",
     "section": "",
-    "text": "Link\n\n\n\n\n\n\nImportantInternal Link （Limited domain name of watanabe3ti.com）\n\n\n\n\n\n\nmain Site\n\n\nnext Site\n\n\ntoolsmith Site\n\n\nlog Site\n\n\n・・・\n\n\n\n\n\n\nImportantInternal Link （Limited My Notion Site）\n\n\n\n\n\n\n\nLink collection\n\n\n・・・\n\n\n\n\n\n\nImportantInternal Link （Limited My GitHub pages）\n\n\n\n\n\n\n\n“/next” next Site（mirror）\n\n\n・・・"
+    "text": "Link\n\n\n\n🚀 All sites are here\n\n\n公開中のサイト・サービス一覧は INDEX を参照してください。\n\n\n\n\n\n\n\n\n\nImportantwatanabe3ti.com 系\n\n\n\n\n\n\nmain Site\nnext Site\ntoolsmith Site\nlog Site\n\n\n\n\n\n\n\nImportantNotion\n\n\n\n\nLink collection\n\n\n\n\n\n\n\n\n\nImportantGitHub Pages\n\n\n\n\n“/next” next Site（mirror）\nBlog"
   },
   {
     "objectID": "articles/note.html",
     "href": "articles/note.html",
     "title": "Note",
     "section": "",
-    "text": "Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Pulse (Bootstrap 5) + カスタム SCSS\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nPulse Theme\n\n\n\n\n\nbrew update\nUnicode / emoji"
+    "text": "備忘録 / 自由帳 です。\n\n\n\n\nターミナルの仕業 001 : 天気予報を取得\nターミナルの仕業 002 : 郵便番号検索\nターミナルの仕業 003 : YouTube動画をMP3化\nターミナルの仕業 004 : JPEGのEXIF情報を削除\nターミナルの仕業 005 : ColabにSSH接続\n\n\n\n\nUnicode / emoji / ⋰ など、気ままに書き留める場所。\n\nbrew update の覚書\n環境メモ\n\n\n\n\n\n\n\n\nQuarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Neo-Brutalism（カスタム SCSS）\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nCosmo Theme"
+  },
+  {
+    "objectID": "articles/note.html#人気の記事プロジェクト",
+    "href": "articles/note.html#人気の記事プロジェクト",
+    "title": "Note",
+    "section": "",
+    "text": "ターミナルの仕業 001 : 天気予報を取得\nターミナルの仕業 002 : 郵便番号検索\nターミナルの仕業 003 : YouTube動画をMP3化\nターミナルの仕業 004 : JPEGのEXIF情報を削除\nターミナルの仕業 005 : ColabにSSH接続\n\n\n\n\nUnicode / emoji / ⋰ など、気ままに書き留める場所。\n\nbrew update の覚書\n環境メモ"
   },
   {
     "objectID": "articles/note.html#quarto-技術メモ",
     "href": "articles/note.html#quarto-技術メモ",
     "title": "Note",
     "section": "",
-    "text": "Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Pulse (Bootstrap 5) + カスタム SCSS\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nPulse Theme\n\n\n\n\n\nbrew update\nUnicode / emoji"
+    "text": "Quarto は R Markdown の後継となるオープンソースの出版システム。Markdown から HTML/PDF/Word 等の形式に変換できる。Python・R・Julia・Observable JS に対応。\n\n\n\n\nエンジン: Quarto Website\nテーマ: Neo-Brutalism（カスタム SCSS）\n出力: quarto render → docs/ ディレクトリに生成\nホスティング: GitHub Pages（docs/ を公開）\n\n\n\n\n# ローカルプレビュー（ホットリロード付き）\nquarto preview\n\n# サイトをビルド\nquarto render\n\n# 新規記事を作成\nquarto create article.qmd\n\n\n\n\nQuarto ドキュメント\nQuarto Gallery\nQuarto GitHub\nCosmo Theme"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to watanabe3tipapa.github.io!",
+    "title": "Welcome to my portal!",
     "section": "",
-    "text": "Facebook\n  \n  \n    \n     Github\n  \n\n\n\n\nWelcome to watanabe3tipapa.github.io!\nBricoleur / Toolsmith のもうひとつのポータル\n\n\n\n\n\n\n\n\n\n\n\n\n「ターミナルの仕業」シリーズ \\ Projects \\ Articles"
+    "text": "Facebook\n  \n  \n    \n     Github"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Welcome to my portal!",
+    "section": "Quick Links",
+    "text": "Quick Links\n\n「ターミナルの仕業」シリーズ\nProjects\nArticles\nInternal Links\nBlog"
   },
   {
     "objectID": "projects/HowtoexecutefromTerminal.html",

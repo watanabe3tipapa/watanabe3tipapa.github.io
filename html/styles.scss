@@ -1,86 +1,123 @@
 /*-- scss:defaults --*/
 
-// Brutalist-soft — warm, bold, approachable
-$primary:   #0369a1;
+// v2 — Neo-Brutalism
+// 参考: https://watanabe3tipapa.github.io/index/ (neo-brutalism LP)
+
+$primary:   #000000;
 $secondary: #292524;
 
-$body-bg:    #f5f2ed;
-$body-color: #292524;
+$body-bg:    #f6f6f4;
+$body-color: #000000;
 
-$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', sans-serif;
+$font-family-sans-serif: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 $font-family-monospace:  'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
-$headings-font-weight: 800;
-$headings-color: #292524;
-$headings-font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', sans-serif;
+$headings-font-weight: 900;
+$headings-color: #000000;
+$headings-font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 
-// Navbar (light)
-$navbar-light-color:       #292524;
-$navbar-light-hover-color: #0369a1;
-$navbar-light-active-color:#0369a1;
+// Neo-brutalism palette
+$nb-black:        #000000;
+$nb-yellow:       #ffe14d;
+$nb-lime:         #9ef01a;
+$nb-blue:         #7ec8e3;
+$nb-salmon:       #ffadad;
+$nb-pink:         #ff2d75;
+$nb-bg:           #f6f6f4;
+
+// Navbar (black)
+$navbar-dark-color:       #ffffff;
+$navbar-dark-hover-color: $nb-yellow;
+$navbar-dark-active-color: $nb-yellow;
 $navbar-padding-y: 1rem;
 
 // Cards
-$card-border-radius: 4px;
-$card-border-color:  #d6d0c8;
+$card-border-radius: 0px;
+$card-border-color:  $nb-black;
 $card-bg:            #ffffff;
 $card-cap-bg:        #ffffff;
-$card-color:         #292524;
+$card-color:         $nb-black;
 
 // Links
-$link-color: #0369a1;
-$link-hover-color: #0284c7;
+$link-color: $nb-black;
+$link-hover-color: $nb-pink;
+$link-decoration: none;
+$link-hover-decoration: none;
 
 // Code
-$code-color: #0369a1;
-$code-bg: #f0ede8;
+$code-color: $nb-black;
+$code-bg: $nb-yellow;
 
 // Borders
-$border-color: #d6d0c8;
-$border-radius: 4px;
+$border-color: $nb-black;
+$border-radius: 0px;
 
 // Tables
-$table-color: #292524;
+$table-color: $nb-black;
 $table-bg: #ffffff;
-$table-border-color: #d6d0c8;
+$table-border-color: $nb-black;
 
 // Blockquotes
-$blockquote-color: #6b6258;
+$blockquote-color: $nb-black;
 
 /*-- scss:rules --*/
 
 // Base
 body {
-  background-color: #f5f2ed;
-  color: #292524;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', sans-serif;
+  background-color: $nb-bg;
+  color: $nb-black;
+  font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+}
+
+// Links
+a {
+  color: $nb-black;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 3px solid $nb-pink;
+}
+
+a:hover {
+  color: $nb-pink;
+  border-bottom: 3px solid $nb-pink;
 }
 
 // Navbar
 .navbar {
-  background-color: #292524;
-  border-bottom: 3px solid #0369a1;
+  background-color: $nb-black;
+  border-bottom: 4px solid $nb-yellow;
+  box-shadow: 0 4px 0 #000;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  font-size: 1.1em;
+  border-bottom: none;
+}
+
+.navbar .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 0.85em;
+  border-bottom: none;
+  margin: 0 0.2rem;
+  padding: 0.3rem 0.6rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #a78bfa;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 2px;
+.navbar .navbar-nav .nav-link:hover {
+  color: $nb-yellow;
+  background-color: #000;
+  border-bottom: none;
+  box-shadow: inset 0 -4px 0 $nb-yellow;
 }
 
-.navbar-brand {
-  color: #ffffff;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  font-size: 1.1em;
+.navbar .navbar-nav .nav-link.active {
+  color: $nb-yellow;
+  font-weight: 900;
+  border-bottom: 3px solid $nb-yellow;
 }
 
 .navbar .quarto-navbar-tools .quarto-navigation-tool {
@@ -88,171 +125,186 @@ body {
 }
 
 .navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
-  color: #a78bfa;
+  color: $nb-yellow;
 }
 
-.navbar-light .navbar-toggler-icon {
+.navbar .navbar-toggler-icon {
   filter: invert(1);
 }
 
 // Headings
 h1, h2, h3, h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', sans-serif;
-  font-weight: 800;
+  font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  font-weight: 900;
+  color: $nb-black;
 }
 
 h1 {
   font-size: 2.5em;
-  border-bottom: 4px solid #0369a1;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+  border: 4px solid $nb-black;
+  background-color: $nb-yellow;
+  padding: 0.5rem 1rem;
+  box-shadow: 8px 8px 0 $nb-black;
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 h2 {
-  font-size: 1.6em;
-  border-bottom: 2px solid #d6d0c8;
-  padding-bottom: 0.4rem;
-  margin-top: 2rem;
+  font-size: 1.7em;
+  border: 3px solid $nb-black;
+  background-color: $nb-blue;
+  padding: 0.4rem 0.9rem;
+  box-shadow: 6px 6px 0 $nb-black;
+  display: inline-block;
+  margin-top: 2.5rem;
 }
 
 h3 {
-  font-size: 1.25em;
-  font-weight: 700;
+  font-size: 1.35em;
+  font-weight: 900;
+  border-bottom: 3px solid $nb-black;
+  padding-bottom: 0.3rem;
 }
 
 // Cards
 .card {
-  border-width: 2px;
-  border-color: #d6d0c8;
+  border: 4px solid $nb-black;
+  border-radius: 0;
+  box-shadow: 8px 8px 0 $nb-black;
   background-color: #ffffff;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
-.card-img-top {
-  border-bottom: 2px solid #d6d0c8;
+.card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 0 0 0 4px $nb-black;
 }
 
-.card-title {
-  font-weight: 800;
-  font-size: 0.95em;
+.card .card-body {
+  padding: 1.4rem;
 }
 
-.card-title a {
-  color: #292524;
+.card .card-title {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.card .card-title a {
+  color: $nb-black;
   text-decoration: none;
+  border-bottom: none;
+}
+
+.card .card-title a:hover {
+  color: $nb-pink;
+  border-bottom: none;
+}
+
+.card .card-text {
+  font-size: 0.95em;
   font-weight: 700;
-}
-
-.card-title a:hover {
-  color: #0369a1;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-}
-
-.card-text {
-  font-size: 0.9em;
-  color: #6b6258;
-}
-
-// Links
-a {
-  color: #0369a1;
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #0369a1;
-}
-
-a:hover {
-  color: #0284c7;
-  text-decoration-color: #0284c7;
+  color: $nb-black;
 }
 
 // Code blocks
 div.sourceCode {
-  border: 2px solid #d6d0c8;
-  border-radius: 4px;
-  background-color: #f0ede8;
+  border: 3px solid $nb-black;
+  border-radius: 0;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 0 $nb-black;
 }
 
 pre.sourceCode {
-  background-color: #f0ede8;
+  background-color: #ffffff;
   font-size: 0.85em;
 }
 
 code {
-  background-color: #f0ede8;
-  color: #0369a1;
+  background-color: $nb-yellow;
+  color: $nb-black;
   padding: 0.15em 0.4em;
   font-size: 0.85em;
-  border-radius: 4px;
+  border-radius: 0;
+  border: 2px solid $nb-black;
 }
 
 // About image
 .about-image {
-  border: 2px solid #d6d0c8;
-  border-radius: 4px;
+  border: 4px solid $nb-black;
+  border-radius: 0;
+  box-shadow: 8px 8px 0 $nb-black;
 }
 
 // Footer
 .page-footer {
-  border-top: 3px solid #d6d0c8;
+  border-top: 4px solid $nb-black;
   font-size: 0.8em;
-  color: #6b6258;
-  background-color: #f0ede8;
+  color: $nb-black;
+  background-color: $nb-bg;
 }
 
 // Callout blocks
 .callout {
-  border-radius: 4px !important;
-  border-left-width: 4px !important;
+  border: 3px solid $nb-black !important;
+  border-radius: 0 !important;
+  box-shadow: 6px 6px 0 $nb-black;
 }
 
 // Blockquote
 blockquote {
-  border-left: 4px solid #0369a1;
-  padding-left: 1rem;
-  color: #6b6258;
+  border: 3px solid $nb-black;
+  border-left-width: 3px;
+  padding: 1rem;
+  color: $nb-black;
+  background-color: $nb-lime;
 }
 
 // Horizontal rule
 hr {
-  border-top: 3px solid #d6d0c8;
+  border-top: 4px solid $nb-black;
   margin: 2rem 0;
 }
 
 // Table
 .table {
   th {
-    border-top: 3px solid #0369a1;
-    font-weight: 700;
+    border-top: 4px solid $nb-black;
+    font-weight: 900;
     font-size: 0.85em;
+    background-color: $nb-yellow;
+  }
+  td {
+    border-top: 2px solid $nb-black;
   }
 }
 
 // Search
 .quarto-search .search-input {
-  border-radius: 4px;
-  border: 2px solid #d6d0c8;
+  border-radius: 0;
+  border: 3px solid $nb-black;
 }
 
-// About links
+// About links (badge)
 .about-links a {
-  border: 2px solid #d6d0c8;
+  background-color: $nb-black;
+  color: #ffffff;
+  border: 3px solid $nb-black;
   padding: 0.3rem 0.8rem;
   text-decoration: none;
-  font-weight: 600;
-  border-radius: 4px;
+  font-weight: 900;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 $nb-pink;
 }
 
 .about-links a:hover {
-  border-color: #0369a1;
-  color: #0369a1;
+  color: $nb-yellow;
+  border-color: $nb-black;
   text-decoration: none;
 }
 
-// Badge image in about block
 .about-link-text {
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.02em;
 }

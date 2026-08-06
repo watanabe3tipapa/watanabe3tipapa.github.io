@@ -49,10 +49,6 @@ quarto render
 └── DEV-MEMO.md          # 開発メモ（非公開）
 ```
 
-## コントリビューション
-
-コントリビューションは大歓迎です！まず [CONTRIBUTING.md](CONTRIBUTING.md) と [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) をお読みください。
-
 ## ライセンス
 
 コンテンツは [CC BY-SA 4.0](LICENSE) のもとで提供されています。

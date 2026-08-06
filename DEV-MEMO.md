@@ -77,3 +77,45 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - `quarto render` で再ビルド・検証済み（Blog / github リンクが正しく反映）
 
 ---
+
+## 2026-08-06 : v2 ブラッシュアップ計画
+
+### 決定事項（ユーザー指定）
+- **範囲**: すべて（トップページ / デザインテーマ / コンテンツ / 構造）
+- **デザイン方向性**: 従来の「Toolsmith Portal — Brutalist-soft」とは **別のもの** に刷新する。
+
+### 作業項目
+- [x] 1. デザインテーマ刷新（neo-Brutalism） — `html/styles.scss` + `_quarto.yml`
+- [x] 2. トップページ（index.qmd）の刷新 — ポータル化 + INDEX 誘導
+- [x] 3. Projects / Articles / Link ページの整理・刷新
+- [x] 4. 構造・ナビの整理（navbar に INDEX 追加、footer 変更）
+- [x] 5. README の Contributing セクション削除（追加タスク）
+- [ ] 6. `quarto render` + 検証
+- [ ] 7. コミット・push
+
+### 実装内容（v2 初回）
+**デザイン（html/styles.scss）**
+- index LP（watanabe3tipapa.github.io/index/）の **neo-brutalism** を踏襲。
+- 太い黒ボーダー（3-4px）+ オフセットハードシャドウ（8px 8px 0 等）+ 角丸なし。
+- パレット: 黒 #000 / レモン黄 #ffe14d / ライム #9ef01a / パウダーブルー #7ec8e3 / サーモン #ffadad / ピンク #ff2d75 / 背景 #f6f6f4。
+- タイポグラフィ: 'Arial Black' 系 + weight 900。見出しは塗りつぶし+影のブロック。
+- カード: ホバーで translate(-4px,-4px) の浮き上がり。
+
+**_quarto.yml**
+- description を "Neo-Brutalism Portal" に変更。
+- theme: `flatly` → `cosmo`。
+- navbar.left 先頭に **INDEX**（→ /index/）を追加。
+- footer center を「All Sites / Services → INDEX」に変更。
+
+**ページ刷新**
+- index.qmd: "Welcome to my portal!" + INDEX 誘導カード + Quick Links。
+- link.qmd: 3カテゴリに整理、INDEX 誘導カード追加。
+- note.qmd: 記事一覧 + 自由帳 + Quarto メモ。
+- project.qmd: INDEX 誘導カード追加。
+- README.md / README_ja.md: Contributing セクション削除。
+
+### 心がけ
+- ソース（.qmd / _quarto.yml / scss）のみを編集し、`docs/` は必ず `quarto render` で再生成する。
+- 更新は DEV-MEMO にこまめに追録する。
+
+---

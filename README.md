@@ -49,10 +49,6 @@ quarto render
 └── DEV-MEMO.md          # Development notes (not published)
 ```
 
-## Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) first.
-
 ## License
 
 Content is licensed under [CC BY-SA 4.0](LICENSE).

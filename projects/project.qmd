@@ -13,6 +13,15 @@ about:
 
 # Projects
 
+<div class="card">
+<div class="card-body">
+<h3 class="card-title">🚀 All sites are here</h3>
+<p class="card-text">
+すべてのサイト・サービス一覧は <a href="https://watanabe3tipapa.github.io/index/">INDEX</a> を参照してください。
+</p>
+</div>
+</div>
+
 ## ターミナルの仕業
 
 ターミナル操作をテーマにしたワークショップシリーズです。

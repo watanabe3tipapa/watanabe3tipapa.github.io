@@ -7,38 +7,41 @@ about:
       text: Facebook
       href: https://www.facebook.com/toru.watanabe3ti/ 
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/watanabe3tipapa
 ---
 
 # Link
 
-::: {.callout-important appearance="simple"}
-## Internal Link （Limited domain name of watanabe3ti.com）
-:::
-
-### [main Site](https://watanabe3ti.com)
-
-### [next Site](https://next.watanabe3ti.com)
-
-### [toolsmith Site](https://toolsmith.watanabe3ti.com)
-
-### [log Site](https://log.watanabe3ti.com)
-
-### ・・・
+<div class="card">
+<div class="card-body">
+<h3 class="card-title">🚀 All sites are here</h3>
+<p class="card-text">
+公開中のサイト・サービス一覧は <a href="https://watanabe3tipapa.github.io/index/">INDEX</a> を参照してください。
+</p>
+</div>
+</div>
 
 ::: {.callout-important appearance="simple"}
-## Internal Link （Limited My Notion Site）
+## watanabe3ti.com 系
 :::
 
-### [Link collection](https://watanabe3tipapa.notion.site/INDEX-watanabetipapa-notion-site-14a0087e251c805ebfb9df23be496e1a)
-
-### ・・・
+- [main Site](https://watanabe3ti.com)
+- [next Site](https://next.watanabe3ti.com)
+- [toolsmith Site](https://toolsmith.watanabe3ti.com)
+- [log Site](https://log.watanabe3ti.com)
 
 ::: {.callout-important appearance="simple"}
-## Internal Link （Limited My GitHub pages）
+## Notion
+
+- [Link collection](https://watanabe3tipapa.notion.site/INDEX-watanabetipapa-notion-site-14a0087e251c805ebfb9df23be496e1a)
+
 :::
 
-### ["/next"](https://watanabe3tipapa.github.io/next/) next Site（mirror）
+::: {.callout-important appearance="simple"}
+## GitHub Pages
 
-### ・・・
+- ["/next"](https://watanabe3tipapa.github.io/next/) next Site（mirror）
+- [Blog](https://watanabe3tipapa.github.io/watanabe3tipapa)
+
+:::

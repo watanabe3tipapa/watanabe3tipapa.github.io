@@ -2,7 +2,7 @@
 # website settings
 website:
   title: "watanabe3tipapa.github.io"                                # Your name
-  description: "Toolsmith Portal — Brutalist-soft"
+  description: "Neo-Brutalism Portal"
   site-url: https://watanabe3tipapa.github.io
   image: assets/bg.jpg
   favicon: assets/favicon.png
@@ -14,6 +14,8 @@ website:
     
     # your sub-pages
     left:
+      - text: "INDEX"
+        href: https://watanabe3tipapa.github.io/index/
       - text: "Projects"
         href: projects/project.qmd
       - text: "Articles"
@@ -48,7 +50,7 @@ website:
     left: |
       <span class="faux-block">&#169; 2026 watanabe3tipapa CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://watanabe3tipapa.github.io/quarto-pe/content2.html">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://watanabe3tipapa.github.io/index/">All Sites / Services → INDEX</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/">View source on GitHub</a></span>
 
@@ -78,7 +80,7 @@ format:
   html:
     fontsize: 1.15em
     theme: 
-      - flatly
+      - cosmo
       - html/styles.scss
     toc: false
     code-link: true

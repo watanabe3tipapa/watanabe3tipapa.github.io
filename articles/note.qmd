@@ -7,15 +7,34 @@ about:
       text: Facebook
       href: https://www.facebook.com/toru.watanabe3ti/
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/watanabe3tipapa
 ---
 
 # Note
 
-![](/assets/IMG_q_p_g.jpg){fig-align="center"}
+*備忘録 / 自由帳* です。
 
-### *自由帳*
+------------------------------------------------------------------------
+
+## 人気の記事（プロジェクト）
+
+- [ターミナルの仕業 001 : 天気予報を取得](/projects/HowtoexecutefromTerminal/001kai.html)
+- [ターミナルの仕業 002 : 郵便番号検索](/projects/HowtoexecutefromTerminal/002kai.html)
+- [ターミナルの仕業 003 : YouTube動画をMP3化](/projects/HowtoexecutefromTerminal/003kai.html)
+- [ターミナルの仕業 004 : JPEGのEXIF情報を削除](/projects/HowtoexecutefromTerminal/004kai.html)
+- [ターミナルの仕業 005 : ColabにSSH接続](/projects/HowtoexecutefromTerminal/005kai.html)
+
+---------------------------------------------------------------------------
+
+### 自由帳
+
+Unicode / emoji / ⋰ など、気ままに書き留める場所。
+
+- `brew update` の覚書
+- 環境メモ
+
+---------------------------------------------------------------------------
 
 ## Quarto 技術メモ
 
@@ -26,7 +45,7 @@ Quarto は R Markdown の後継となるオープンソースの出版システ�
 ### このサイトの構成
 
 - **エンジン**: Quarto Website
-- **テーマ**: Pulse (Bootstrap 5) + カスタム SCSS
+- **テーマ**: Neo-Brutalism（カスタム SCSS）
 - **出力**: `quarto render` → `docs/` ディレクトリに生成
 - **ホスティング**: GitHub Pages（`docs/` を公開）
 
@@ -48,12 +67,4 @@ quarto create article.qmd
 - [Quarto ドキュメント](https://quarto.org/docs/)
 - [Quarto Gallery](https://quarto.org/docs/gallery/)
 - [Quarto GitHub](https://github.com/quarto-dev/quarto-cli)
-- [Pulse Theme](https://bootswatch.com/pulse/)
-
-------------------------------------------------------------------------
-
-### 環境メモ
-
-`brew update`
-
-Unicode / emoji
+- [Cosmo Theme](https://bootswatch.com/cosmo/)
