@@ -17,7 +17,7 @@ $headings-color: #000000;
 $headings-font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 
 // Neo-brutalism palette
-$nb-black:        #000000;
+$nb-black:        #333333;
 $nb-yellow:       #ffe14d;
 $nb-lime:         #9ef01a;
 $nb-blue:         #7ec8e3;
@@ -86,7 +86,7 @@ a:hover {
 .navbar {
   background-color: $nb-black;
   border-bottom: 4px solid $nb-yellow;
-  box-shadow: 0 4px 0 #000;
+  box-shadow: 0 4px 0 $nb-black;
 }
 
 .navbar .navbar-brand {
@@ -109,7 +109,7 @@ a:hover {
 
 .navbar .navbar-nav .nav-link:hover {
   color: $nb-yellow;
-  background-color: #000;
+  background-color: $nb-black;
   border-bottom: none;
   box-shadow: inset 0 -4px 0 $nb-yellow;
 }
