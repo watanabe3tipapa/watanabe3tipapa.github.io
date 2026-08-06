@@ -13,6 +13,9 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:toruwatanabe3ti@gmail.com"
+include-in-header:
+  - text: |
+      <meta http-equiv="refresh" content="5; url=https://watanabe3tipapa.github.io/index/">
 ---
 
 ::: {#about-block}
@@ -47,3 +50,18 @@ about:
 - [Articles](/articles/note.qmd)
 - [Internal Links](/link/link.qmd)
 - [Blog](https://watanabe3tipapa.github.io/watanabe3tipapa)
+
+------------------------------------------------------------------------
+
+<div class="card">
+<div class="card-body">
+<p class="card-text">
+このページは <strong>5秒後</strong>に <a href="https://watanabe3tipapa.github.io/index/">INDEX</a> へ自動で移動します。<br>
+すぐに移動する場合は以下のリンクをクリックしてください。
+</p>
+<ul>
+<li><a href="https://watanabe3tipapa.github.io/index/">→ INDEX（すべてのサイト・サービス）</a></li>
+<li><a href="/projects/project.qmd">→ Projects</a></li>
+</ul>
+</div>
+</div>

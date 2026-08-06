@@ -127,6 +127,12 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
   - ターミナルの仕業・Extra の手動コンテンツは残す（INDEX に載らない独自コンテンツ）。
 - **検証**: `quarto render` 成功、外部リンク重複なし、壊れリンクなし、ターミナルの仕業カード正常。
 
+### v2 精錬（第3回） — トップから INDEX へ自動遷移
+- `index.qmd` の `include-in-header` に `<meta http-equiv="refresh" content="5; url=https://watanabe3tipapa.github.io/index/">` を追加。
+- トップページ表示から **5秒後に INDEX へ自動遷移**。
+- ページ下部に「5秒後に移動」「すぐ移動するリンク」の案内カードを追加。
+- **注意**: トップ（/）を開くと必ず INDEX に遷移する仕様。トップに留まりたい場合は `Projects` 等のサブページへ直リンクでアクセスする。
+
 ### 心がけ
 - ソース（.qmd / _quarto.yml / scss）のみを編集し、`docs/` は必ず `quarto render` で再生成する。
 - 更新は DEV-MEMO にこまめに追録する。
