@@ -138,3 +138,44 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - 更新は DEV-MEMO にこまめに追録する。
 
 ---
+
+## 2026-08-06 : GitHub Pages 配信設定の大変更（Actions デプロイ化）
+
+### 経緯（重要）
+ライブ `https://watanabe3tipapa.github.io` が **古いまま** で、`main` の `docs/` への変更が全く反映されていなかった。
+原因は **GitHub Pages の配信元が `gh-pages` ブランチ（ルート `/`）** になっていたため。
+- 旧 `gh-pages` は quarto 1.9.37 でビルドされた v1.0 時代の遺物（旧 navbar / UC900.png / demo-badge.svg 等を配信中）。
+- これまで `main` の `docs/` を編集・push していても、配信元が違うので一切無意味だった。
+
+### 決定事項（ユーザー指示に基づく手順）
+1. **Pages 配信元を `main` の `/docs` に切替** → その後ユーザーが **「Build and deployment: Actions」** に変更。
+   - 最終形: `build_type: workflow`（GitHub Actions がビルドして配信）。
+2. `.github/workflows/pages.yml` を新規作成してデプロイを自動化。
+
+### 作成した workflow（.github/workflows/pages.yml）
+- トリガー: `push: branches: [main]` + `workflow_dispatch`（手動実行可）。
+- 手順:
+  1. `actions/checkout@v4`
+  2. **`quarto-dev/quarto-actions/setup@v2`** で Quarto インストール（`version: 1.8.27` でローカルと一致させている）
+  3. `quarto render` → 出力 `docs/`
+  4. `actions/upload-pages-artifact@v3`（path: `./docs`）
+  5. `actions/deploy-pages@v4`
+- `permissions`: `contents: read` / `pages: write` / `id-token: write` 必須。
+- `concurrency: group: pages, cancel-in-progress: false`。
+
+### ハマりどころ（重要）
+- **`quarto-dev/quarto-cli/setup@v2` は存在しない**（`v2` タグが無くビルド失敗）。
+  正しくは **`quarto-dev/quarto-actions/setup@v2`**（`quarto-actions` リポジトリ）。
+  エラー例: `Unable to resolve action quarto-dev/quarto-cli@v2, unable to find version v2`。
+- setup の `version:` 指定で、ローカル（1.8.27）と CI の Quarto バージョンを揃える方針。
+
+### 現在の状態（追記時点）
+- workflow は commit 済み・push 済み（コミット `1354422`）。
+- 直近の Actions run は **進行中**。完了後にライブへ反映される。
+
+### 今後の運用
+- `main` への push だけで Quarto ビルド → Pages デプロイまで自動化された。
+- ローカルで `docs/` を手動 commit する必要は技術的には無くなったが、既存の docs/ 追跡は維持（変更差分で挙動に注意）。
+- Pages の配信元設定（Actions / ブランチ）は GitHub 上で変わると挙動が変わる。変更時は要確認。
+
+---
