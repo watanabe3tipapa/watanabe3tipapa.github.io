@@ -44,8 +44,9 @@ quarto render
 ├── link/                # 内部リンク集
 ├── html/styles.scss     # カスタム工業テーマ
 ├── assets/              # 画像・静的ファイル
+│   └── archive/         # 旧版アーカイブ（v1.0.tar.gz）
 ├── docs/                # ビルド出力（公開）
-└── v1.0/                # 旧バージョン（保存）
+└── DEV-MEMO.md          # 開発メモ（非公開）
 ```
 
 ## コントリビューション

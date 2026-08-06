@@ -44,8 +44,9 @@ quarto render
 ├── link/                # Internal link collection
 ├── html/styles.scss     # Custom industrial theme
 ├── assets/              # Images and static files
+│   └── archive/         # Archived legacy version (v1.0.tar.gz)
 ├── docs/                # Build output (published)
-└── v1.0/                # Legacy version (archive)
+└── DEV-MEMO.md          # Development notes (not published)
 ```
 
 ## Contributing
