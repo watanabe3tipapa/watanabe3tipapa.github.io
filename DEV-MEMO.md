@@ -58,3 +58,22 @@
 - **教訓**: docs は Quarto の生成物なので、ブランチ統合ではソース（.qmd / _quarto.yml）のみを扱い、docs は必ず再生成すること。
 
 ---
+
+## 2026-08-06 : navbar 導線整理
+
+### 背景
+navbar 右側の **github アイコン**が GitHub プロフィールではなく、別リポジトリ `watanabe3tipapa/watanabe3tipapa` の
+GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/watanabe3tipapa`）を指していた。
+アイコンと行き先の意味が不一致だった。
+
+### 決定事項
+- ブログはサンプル LP として今後も配置（削除せず継続）。
+- github アイコン → **GitHub プロフィール** `https://github.com/watanabe3tipapa` に修正。
+- ブログ（`watanabe3tipapa.github.io/watanabe3tipapa`）へは navbar 左側に **「Blog」テキストリンク**を追加。
+
+### 変更内容（_quarto.yml）
+- `navbar.left` に `- text: "Blog" href: https://watanabe3tipapa.github.io/watanabe3tipapa` を追加
+- `navbar.right` の github アイコン href を `https://github.com/watanabe3tipapa` に変更
+- `quarto render` で再ビルド・検証済み（Blog / github リンクが正しく反映）
+
+---

@@ -20,6 +20,8 @@ website:
         href: articles/note.qmd
       - text: "Internal Link"
         href: link/link.qmd
+      - text: "Blog"
+        href: https://watanabe3tipapa.github.io/watanabe3tipapa
     
     # your site and social media handles
     right:
@@ -32,7 +34,7 @@ website:
       - icon: twitter
         href: https://twitter.com/watanabe3tipapa
       - icon: github
-        href: https://watanabe3tipapa.github.io/watanabe3tipapa
+        href: https://github.com/watanabe3tipapa
       - icon: envelop
         aria-label: email
         href: "mailto:toruwatanabe3ti@gmail.com"  
