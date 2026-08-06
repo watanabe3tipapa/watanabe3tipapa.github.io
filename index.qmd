@@ -6,10 +6,13 @@ about:
   links:
     - icon: facebook
       text: Facebook
-      href: https://www.facebook.com/toru.watanabe3ti/ 
+      href: https://www.facebook.com/toru.watanabe3ti/
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/watanabe3tipapa
+    - icon: envelope
+      text: Email
+      href: "mailto:toruwatanabe3ti@gmail.com"
 ---
 
 ::: {#about-block}
@@ -17,22 +20,29 @@ about:
 
 # *Welcome to my portal!*
 
-***Bricoleur / Toolsmith のポータル***
+***Bricoleur & Toolsmith のポートフォリオ***
 
 <div class="card">
 <div class="card-body">
-<h3 class="card-title">→ すべてのサイト・サービスはこちら</h3>
+<h3 class="card-title">🚀 All sites & services are here</h3>
 <p class="card-text">
 公開中のサイト・サービス一覧は <strong><a href="https://watanabe3tipapa.github.io/index/">INDEX</a></strong> にまとめています。
 </p>
 </div>
 </div>
 
----
+## About
+
+**Bricoleur & Toolsmith** — Toru Watanabe（小樽・北海道）.
+
+その場にあるものを組み合わせて「道具」を作り出します。ターミナル操作・CLI ツール・Web サイト・教材・自由研究まで、作りたいものを必要なだけ作っています。
+
+- **Toolsmith**: 実用ツールの開発（CLI ・ スクリプト ・ サイト）
+- **Bricoleur**: 寄せ集めの部品から新しい道具を組み立てる
+- **Workshop**: 「ターミナルの仕業」等のワークショップを展開
 
 ## Quick Links
 
-- [「ターミナルの仕業」シリーズ](/projects/HowtoexecutefromTerminal.html)
 - [Projects](/projects/project.qmd)
 - [Articles](/articles/note.qmd)
 - [Internal Links](/link/link.qmd)

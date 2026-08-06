@@ -7,7 +7,7 @@ about:
       text: Facebook
       href: https://www.facebook.com/toru.watanabe3ti/
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/watanabe3tipapa
 ---
 
@@ -15,9 +15,10 @@ about:
 
 <div class="card">
 <div class="card-body">
-<h3 class="card-title">🚀 All sites are here</h3>
+<h3 class="card-title">🚀 All sites & services</h3>
 <p class="card-text">
-すべてのサイト・サービス一覧は <a href="https://watanabe3tipapa.github.io/index/">INDEX</a> を参照してください。
+公開中のサイト・サービスは <strong><a href="https://watanabe3tipapa.github.io/index/">INDEX</a></strong>
+に一覧しています（GitHub Actions が毎日自動更新）。
 </p>
 </div>
 </div>
@@ -90,7 +91,7 @@ about:
 
 </div>
 
-## extra
+## Extra
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
 
@@ -106,8 +107,8 @@ about:
 <div class="col">
 <div class="card h-100">
 <div class="card-body">
-<h5 class="card-title"><a href="https://watanabe3tipapa.github.io/GoogleColaboratory/">Google Colaboratory Archives</a></h5>
-<p class="card-text">Google Colab 関連アーカイブ</p>
+<h5 class="card-title"><a href="https://github.com/watanabe3tipapa/github-actions-search-ce">github-actions-search-ce</a></h5>
+<p class="card-text">GitHub Actions 学習ツール</p>
 </div>
 </div>
 </div>
@@ -115,8 +116,8 @@ about:
 <div class="col">
 <div class="card h-100">
 <div class="card-body">
-<h5 class="card-title"><a href="https://github.com/watanabe3tipapa/github-actions-search-ce">github-actions-search-ce</a></h5>
-<p class="card-text">GitHub Actions 学習ツール</p>
+<h5 class="card-title"><a href="https://watanabe3tipapa.github.io/GoogleColaboratory/">Google Colaboratory Archives</a></h5>
+<p class="card-text">Google Colab 関連アーカイブ</p>
 </div>
 </div>
 </div>

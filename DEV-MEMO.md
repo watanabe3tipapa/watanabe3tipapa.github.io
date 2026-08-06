@@ -118,6 +118,15 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - 参照なしの画像を削除: `assets/IMG_q_p_g.jpg`（434KB）、`assets/UC900.png`（93KB）、`assets/demo-badge.svg`。
 - 削除後も `quarto render` が正常であることを確認。
 
+### v2 精錬（第2回） — プロフィール + INDEX 一本化
+- **プロフィール（index.qmd）**: About セクション追加。実データに基づき
+  "Bricoleur & Toolsmith — Toru Watanabe（小樽・北海道）"、Toolsmith/Bricoleur/Workshop の 3 活動を明記。
+  （出典: GitHub profile bio "Bricoleur & Toolsmith"、index リポジトリ説明）
+- **INDEX 活用**: GitHub Actions が毎日自動更新する `watanabe3tipapa.github.io/index/` に一本化。
+  - project.qmd の手動カード（公開サイト / 検証サイト now 系）を削除し、INDEX 誘導カードに集約。
+  - ターミナルの仕業・Extra の手動コンテンツは残す（INDEX に載らない独自コンテンツ）。
+- **検証**: `quarto render` 成功、外部リンク重複なし、壊れリンクなし、ターミナルの仕業カード正常。
+
 ### 心がけ
 - ソース（.qmd / _quarto.yml / scss）のみを編集し、`docs/` は必ず `quarto render` で再生成する。
 - 更新は DEV-MEMO にこまめに追録する。
