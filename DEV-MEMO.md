@@ -114,6 +114,10 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - project.qmd: INDEX 誘導カード追加。
 - README.md / README_ja.md: Contributing セクション削除。
 
+### 未使用アセット整理（追加タスク）
+- 参照なしの画像を削除: `assets/IMG_q_p_g.jpg`（434KB）、`assets/UC900.png`（93KB）、`assets/demo-badge.svg`。
+- 削除後も `quarto render` が正常であることを確認。
+
 ### 心がけ
 - ソース（.qmd / _quarto.yml / scss）のみを編集し、`docs/` は必ず `quarto render` で再生成する。
 - 更新は DEV-MEMO にこまめに追録する。
