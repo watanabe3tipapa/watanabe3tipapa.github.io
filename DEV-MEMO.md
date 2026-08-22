@@ -179,3 +179,31 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - Pages の配信元設定（Actions / ブランチ）は GitHub 上で変わると挙動が変わる。変更時は要確認。
 
 ---
+
+## 2026-08-22 : v0.2.0 ソフト・ネオブルータリズム調整
+
+### 目的
+既存のネオ・ブルータリズムの色面、太い見出し、カード構造は維持しつつ、強い黒色の輪郭・オフセットシャドウ・罫線による硬い印象を和らげる。コンテンツ階層と操作性を損なわず、より穏やかな視覚的な入口にすることを目的とした。
+
+### 実装内容
+- `html/styles.scss` の基調インクを `#2f3c4b`、輪郭を `#9baec0`、補助罫線を `#c8d5df`、オフセットシャドウを `#d7e1e8` に再定義した。
+- 見出し、カード、コードブロック、画像、コールアウト、検索ボックス、表、フッターの境界を主に **2px** へ統一し、`5px`〜`6px` の小さな角丸を導入した。
+- オフセットシャドウは黒から淡いブルーグレーに変更し、カードのホバー移動量を `-4px` から `-2px` へ軽減した。
+- ナビゲーションの背景はブルーグレー寄りの濃色に保ち、下線・影・ホバーを低彩度かつ控えめな表現へ調整した。
+- README（英語・日本語）と `CHANGELOG.md` に **v0.2.0** の内容を追記した。
+
+### 検証結果
+- `npx --yes sass html/styles.scss /tmp/watanabe3tipapa-v020.css --no-source-map` によりSCSSコンパイル成功を確認した。
+- 旧来の黒い `3px`〜`4px` 輪郭および黒色ハードシャドウの指定が残っていないことを確認した。
+- GitHub Actions の `Deploy Quarto site to GitHub Pages` はコミット `33d374b` で成功した。
+- 公開ページ `https://watanabe3tipapa.github.io/` で、色面を維持したまま見出し・カード・ナビゲーションの輪郭と影が柔らかく表示されることを目視確認した。
+
+### リリース
+- コミット: `33d374b`（`release: v0.2.0 soften portal outlines`）
+- Gitタグ・GitHub Release: [`v0.2.0`](https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/releases/tag/v0.2.0)
+
+### 今後の運用
+- 新しいコンポーネントを追加する際も、境界線は `$nb-outline`、影は `$nb-shadow` を基本とし、強い黒線へ戻さない。
+- `docs/` はGitHub Actionsで再生成されるため、ソースとなる `.qmd`、`_quarto.yml`、`html/styles.scss` を優先して編集する。
+
+---
