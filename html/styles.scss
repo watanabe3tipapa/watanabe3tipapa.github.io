@@ -1,92 +1,95 @@
 /*-- scss:defaults --*/
 
-// v2 — Neo-Brutalism
-// 参考: https://watanabe3tipapa.github.io/index/ (neo-brutalism LP)
+// v2.1 — Soft Neo-Brutalism
+// 既存のコントラストと色面を維持し、輪郭・影・罫線のみを低彩度化する。
 
-$primary:   #000000;
-$secondary: #292524;
+$nb-ink:          #2f3c4b;
+$nb-outline:      #9baec0;
+$nb-outline-light:#c8d5df;
+$nb-shadow:       #d7e1e8;
+$nb-yellow:       #ffe47a;
+$nb-lime:         #b9ef72;
+$nb-blue:         #a8dbe9;
+$nb-salmon:       #ffc3c3;
+$nb-pink:         #e77d9c;
+$nb-pink-soft:    #efafc1;
+$nb-bg:           #f8f9f8;
 
-$body-bg:    #f6f6f4;
-$body-color: #000000;
+$primary:   $nb-ink;
+$secondary: #506276;
+
+$body-bg:    $nb-bg;
+$body-color: $nb-ink;
 
 $font-family-sans-serif: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 $font-family-monospace:  'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
 $headings-font-weight: 900;
-$headings-color: #000000;
+$headings-color: $nb-ink;
 $headings-font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 
-// Neo-brutalism palette
-$nb-black:        #333333;
-$nb-yellow:       #ffe14d;
-$nb-lime:         #9ef01a;
-$nb-blue:         #7ec8e3;
-$nb-salmon:       #ffadad;
-$nb-pink:         #ff2d75;
-$nb-bg:           #f6f6f4;
-
-// Navbar (black)
+// Navbar
 $navbar-dark-color:       #ffffff;
 $navbar-dark-hover-color: $nb-yellow;
-$navbar-dark-active-color: $nb-yellow;
+$navbar-dark-active-color:$nb-yellow;
 $navbar-padding-y: 1rem;
 
 // Cards
-$card-border-radius: 0px;
-$card-border-color:  $nb-black;
+$card-border-radius: 6px;
+$card-border-color:  $nb-outline;
 $card-bg:            #ffffff;
 $card-cap-bg:        #ffffff;
-$card-color:         $nb-black;
+$card-color:         $nb-ink;
 
 // Links
-$link-color: $nb-black;
+$link-color: $nb-ink;
 $link-hover-color: $nb-pink;
 $link-decoration: none;
 $link-hover-decoration: none;
 
 // Code
-$code-color: $nb-black;
+$code-color: $nb-ink;
 $code-bg: $nb-yellow;
 
 // Borders
-$border-color: $nb-black;
-$border-radius: 0px;
+$border-color: $nb-outline-light;
+$border-radius: 6px;
 
 // Tables
-$table-color: $nb-black;
+$table-color: $nb-ink;
 $table-bg: #ffffff;
-$table-border-color: $nb-black;
+$table-border-color: $nb-outline-light;
 
 // Blockquotes
-$blockquote-color: $nb-black;
+$blockquote-color: $nb-ink;
 
 /*-- scss:rules --*/
 
-// Base
 body {
   background-color: $nb-bg;
-  color: $nb-black;
+  color: $nb-ink;
   font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
 }
 
 // Links
-a {
-  color: $nb-black;
+ a {
+  color: $nb-ink;
   font-weight: 700;
   text-decoration: none;
-  border-bottom: 3px solid $nb-pink;
+  border-bottom: 2px solid $nb-pink-soft;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 a:hover {
   color: $nb-pink;
-  border-bottom: 3px solid $nb-pink;
+  border-bottom-color: $nb-pink;
 }
 
 // Navbar
 .navbar {
-  background-color: $nb-black;
-  border-bottom: 4px solid $nb-yellow;
-  box-shadow: 0 4px 0 $nb-black;
+  background-color: $nb-ink;
+  border-bottom: 3px solid $nb-yellow;
+  box-shadow: 0 3px 10px rgba(47, 60, 75, 0.14);
 }
 
 .navbar .navbar-brand {
@@ -109,19 +112,20 @@ a:hover {
 
 .navbar .navbar-nav .nav-link:hover {
   color: $nb-yellow;
-  background-color: $nb-black;
+  background-color: transparent;
   border-bottom: none;
-  box-shadow: inset 0 -4px 0 $nb-yellow;
+  box-shadow: inset 0 -3px 0 $nb-yellow;
 }
 
 .navbar .navbar-nav .nav-link.active {
   color: $nb-yellow;
   font-weight: 900;
-  border-bottom: 3px solid $nb-yellow;
+  border-bottom: 2px solid $nb-yellow;
 }
 
 .navbar .quarto-navbar-tools .quarto-navigation-tool {
   color: #ffffff;
+  border-bottom: none;
 }
 
 .navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
@@ -136,15 +140,16 @@ a:hover {
 h1, h2, h3, h4 {
   font-family: 'Arial Black', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
   font-weight: 900;
-  color: $nb-black;
+  color: $nb-ink;
 }
 
 h1 {
   font-size: 2.5em;
-  border: 4px solid $nb-black;
+  border: 2px solid $nb-outline;
+  border-radius: 6px;
   background-color: $nb-yellow;
   padding: 0.5rem 1rem;
-  box-shadow: 8px 8px 0 $nb-black;
+  box-shadow: 6px 6px 0 $nb-shadow;
   display: inline-block;
   margin-bottom: 2rem;
   text-transform: uppercase;
@@ -153,10 +158,11 @@ h1 {
 
 h2 {
   font-size: 1.7em;
-  border: 3px solid $nb-black;
+  border: 2px solid $nb-outline;
+  border-radius: 5px;
   background-color: $nb-blue;
   padding: 0.4rem 0.9rem;
-  box-shadow: 6px 6px 0 $nb-black;
+  box-shadow: 5px 5px 0 $nb-shadow;
   display: inline-block;
   margin-top: 2.5rem;
 }
@@ -164,22 +170,23 @@ h2 {
 h3 {
   font-size: 1.35em;
   font-weight: 900;
-  border-bottom: 3px solid $nb-black;
+  border-bottom: 2px solid $nb-outline;
   padding-bottom: 0.3rem;
 }
 
 // Cards
 .card {
-  border: 4px solid $nb-black;
-  border-radius: 0;
-  box-shadow: 8px 8px 0 $nb-black;
+  border: 2px solid $nb-outline;
+  border-radius: 6px;
+  box-shadow: 6px 6px 0 $nb-shadow;
   background-color: #ffffff;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover {
-  transform: translate(-4px, -4px);
-  box-shadow: 0 0 0 4px $nb-black;
+  transform: translate(-2px, -2px);
+  border-color: #7990a5;
+  box-shadow: 8px 8px 0 $nb-shadow;
 }
 
 .card .card-body {
@@ -192,7 +199,7 @@ h3 {
 }
 
 .card .card-title a {
-  color: $nb-black;
+  color: $nb-ink;
   text-decoration: none;
   border-bottom: none;
 }
@@ -205,15 +212,15 @@ h3 {
 .card .card-text {
   font-size: 0.95em;
   font-weight: 700;
-  color: $nb-black;
+  color: $nb-ink;
 }
 
 // Code blocks
 div.sourceCode {
-  border: 3px solid $nb-black;
-  border-radius: 0;
+  border: 2px solid $nb-outline;
+  border-radius: 6px;
   background-color: #ffffff;
-  box-shadow: 5px 5px 0 $nb-black;
+  box-shadow: 4px 4px 0 $nb-shadow;
 }
 
 pre.sourceCode {
@@ -223,84 +230,85 @@ pre.sourceCode {
 
 code {
   background-color: $nb-yellow;
-  color: $nb-black;
+  color: $nb-ink;
   padding: 0.15em 0.4em;
   font-size: 0.85em;
-  border-radius: 0;
-  border: 2px solid $nb-black;
+  border-radius: 4px;
+  border: 1px solid $nb-outline;
 }
 
 // About image
 .about-image {
-  border: 4px solid $nb-black;
-  border-radius: 0;
-  box-shadow: 8px 8px 0 $nb-black;
+  border: 2px solid $nb-outline;
+  border-radius: 6px;
+  box-shadow: 6px 6px 0 $nb-shadow;
 }
 
 // Footer
 .page-footer {
-  border-top: 4px solid $nb-black;
+  border-top: 2px solid $nb-outline;
   font-size: 0.8em;
-  color: $nb-black;
+  color: $nb-ink;
   background-color: $nb-bg;
 }
 
 // Callout blocks
 .callout {
-  border: 3px solid $nb-black !important;
-  border-radius: 0 !important;
-  box-shadow: 6px 6px 0 $nb-black;
+  border: 2px solid $nb-outline !important;
+  border-radius: 6px !important;
+  box-shadow: 4px 4px 0 $nb-shadow;
 }
 
 // Blockquote
 blockquote {
-  border: 3px solid $nb-black;
-  border-left-width: 3px;
+  border: 2px solid $nb-outline;
+  border-left: 5px solid #8bbdd0;
+  border-radius: 5px;
   padding: 1rem;
-  color: $nb-black;
-  background-color: $nb-lime;
+  color: $nb-ink;
+  background-color: #eef8fb;
 }
 
 // Horizontal rule
 hr {
-  border-top: 4px solid $nb-black;
+  border-top: 2px solid $nb-outline-light;
   margin: 2rem 0;
 }
 
 // Table
 .table {
   th {
-    border-top: 4px solid $nb-black;
+    border-top: 2px solid $nb-outline;
     font-weight: 900;
     font-size: 0.85em;
     background-color: $nb-yellow;
   }
   td {
-    border-top: 2px solid $nb-black;
+    border-top: 1px solid $nb-outline-light;
   }
 }
 
 // Search
 .quarto-search .search-input {
-  border-radius: 0;
-  border: 3px solid $nb-black;
+  border-radius: 5px;
+  border: 2px solid $nb-outline;
 }
 
 // About links (badge)
 .about-links a {
-  background-color: $nb-black;
+  background-color: $nb-ink;
   color: #ffffff;
-  border: 3px solid $nb-black;
+  border: 2px solid #61778a;
   padding: 0.3rem 0.8rem;
   text-decoration: none;
   font-weight: 900;
-  border-radius: 0;
-  box-shadow: 4px 4px 0 $nb-pink;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 $nb-pink-soft;
 }
 
 .about-links a:hover {
   color: $nb-yellow;
-  border-color: $nb-black;
+  border-color: #61778a;
   text-decoration: none;
 }
 

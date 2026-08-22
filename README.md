@@ -1,6 +1,7 @@
 [![watanabe3tipapa.github.io](https://img.shields.io/badge/Quarto-Website-4488cc.svg)](https://quarto.org)
 [![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-222222.svg)](https://pages.github.com)
+[![Version](https://img.shields.io/badge/version-v0.2.0-637d92.svg)](CHANGELOG.md)
 
 [English](README.md) | [日本語](README_ja.md)
 
@@ -11,7 +12,7 @@ Personal portal site built with [Quarto](https://quarto.org/). This is the sourc
 ## Features
 
 - Static website powered by Quarto
-- Industrial dark theme with custom SCSS
+- Soft Neo-Brutalism theme with custom SCSS
 - "Terminal no Shiwaza" workshop series
 - Toolsmith project portfolio
 

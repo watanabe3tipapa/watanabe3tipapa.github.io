@@ -1,6 +1,7 @@
 [![watanabe3tipapa.github.io](https://img.shields.io/badge/Quarto-Website-4488cc.svg)](https://quarto.org)
 [![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages-222222.svg)](https://pages.github.com)
+[![Version](https://img.shields.io/badge/version-v0.2.0-637d92.svg)](CHANGELOG.md)
 
 [English](README.md) | [日本語](README_ja.md)
 
@@ -11,7 +12,7 @@
 ## 特徴
 
 - Quarto による静的サイト
-- カスタム工業デザインテーマ（ダークカラー）
+- ソフト・ネオブルータリズムのカスタムテーマ
 - 「ターミナルの仕業」ワークショップシリーズ
 - Toolsmith プロジェクトポートフォリオ
 
