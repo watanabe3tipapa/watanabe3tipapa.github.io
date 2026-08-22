@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-08-22
+
+### Changed
+
+- 3つの関連リポジトリの役割を、個人ポータル、現行の公開サイト・サービス一覧、構築・運用ノートとして明確化
+- トップページと英日READMEに役割分担と相互導線を追加
+- ナビゲーションのnextリンクにテキストを付与し、用途が分かる導線へ更新
+
+### Added
+
+- `ECOSYSTEM.md` に、サイト群の役割、正本、更新時の確認原則を記録
+
 ## [0.2.0] - 2026-08-22
 
 ### Changed
@@ -40,6 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with Quarto template
 
-[Unreleased]: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/compare/v1.0.0...v0.2.0
 [1.0.0]: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io/releases/tag/v1.0.0

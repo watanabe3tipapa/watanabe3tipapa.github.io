@@ -207,3 +207,21 @@ GitHub Pages（Astro 製ブログサンプル LP、`watanabe3tipapa.github.io/wa
 - `docs/` はGitHub Actionsで再生成されるため、ソースとなる `.qmd`、`_quarto.yml`、`html/styles.scss` を優先して編集する。
 
 ---
+
+## 2026-08-22 : v0.2.1 サイト群の役割整理
+
+### 実装内容
+
+このリポジトリを、現在公開しているサイト、サービス、記事、プロジェクトを一覧する**現行資産の正本**として明文化した。トップページ、ナビゲーション、英日READMEに、個人ポータル、公開サイト一覧、構築・運用ノートの役割分担を追加した。
+
+| 参照先 | 役割 |
+| --- | --- |
+| `watanabe3tipapa.github.io/watanabe3tipapa/` | 個人としての活動、制作、連絡先への入口 |
+| `watanabe3tipapa.github.io/index/` | 現在公開している資産と更新状況の正本 |
+| `next.watanabe3ti.com` | 主サイトの体験設計、構築方法、公開経路、運用判断の記録 |
+
+右側ナビゲーションのアイコンに `next` のテキストを追加し、用途が判別できる導線に変更した。`ECOSYSTEM.md` を追加し、3リポジトリの関係と更新時の確認原則を記録した。
+
+### 検証予定
+
+Quartoレンダリング後、トップページの役割表、INDEX・個人ポータル・nextへのリンク、GitHub Pagesデプロイを確認する。

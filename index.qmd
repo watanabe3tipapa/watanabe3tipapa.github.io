@@ -34,6 +34,16 @@ include-in-header:
 </div>
 </div>
 
+## サイト群の役割
+
+| 入口 | 役割 | 参照先 |
+| --- | --- | --- |
+| **個人ポータル** | Bricoleur & Toolsmithとしての活動、制作、連絡先を案内 | [watanabe3tipapa](https://watanabe3tipapa.github.io/watanabe3tipapa/) |
+| **このポータル** | 現在公開しているサイト、サービス、記事、プロジェクトを一覧 | [INDEX](https://watanabe3tipapa.github.io/index/) |
+| **構築・運用ノート** | 主サイトの体験設計、Quarto、GitHub Pages、公開判断を記録 | [next](https://next.watanabe3ti.com/) |
+
+現在の公開先を探す場合は、このINDEXを参照してください。個人の活動紹介は個人ポータル、構築と運用の背景はnextが担当します。
+
 ## About
 
 **Bricoleur & Toolsmith** — Toru Watanabe（小樽・北海道）.
@@ -49,6 +59,8 @@ include-in-header:
 - [Projects](/projects/project.qmd)
 - [Articles](/articles/note.qmd)
 - [Internal Links](/link/link.qmd)
+- [個人ポータル](https://watanabe3tipapa.github.io/watanabe3tipapa/)
+- [構築・運用ノート（next）](https://next.watanabe3ti.com/)
 - [Blog](https://watanabe3tipapa.github.io/watanabe3tipapa)
 
 ------------------------------------------------------------------------

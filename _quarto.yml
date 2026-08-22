@@ -2,7 +2,7 @@
 # website settings
 website:
   title: "watanabe3tipapa.github.io"                                # Your name
-  description: "Neo-Brutalism Portal"
+  description: "公開サイト・サービス一覧とToolsmithポータル"
   site-url: https://watanabe3tipapa.github.io
   image: assets/bg.jpg
   favicon: assets/favicon.png
@@ -29,7 +29,8 @@ website:
     right:
       - text: "Gist"
         href: https://gist.github.com/watanabe3tipapa
-      - icon: folder-symlink
+      - text: "next"
+        icon: folder-symlink
         href: https://next.watanabe3ti.com/
       - icon: facebook
         href: https://www.facebook.com/toru.watanabe3ti/
@@ -63,6 +64,8 @@ project:
     - "**/*.qmd"
     - "**/*.md"
     - "!DEV-MEMO.md"
+    - "!ECOSYSTEM.md"
+    - "!CHANGELOG.md"
   # 参照されない asset（アーカイブ等）も docs にコピー
   resources:
     - assets/archive/
