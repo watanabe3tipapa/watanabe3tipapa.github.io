@@ -7,31 +7,32 @@
 
 # watanabe3tipapa.github.io
 
-Public-site catalog and Toolsmith portal built with [Quarto](https://quarto.org/). This is the source repository for the website published via GitHub Pages.
+Public-site catalog and Toolsmith portal built with Quarto. This repository is the source for the website published via GitHub Pages and serves as the canonical catalog of currently published sites, services, articles, and projects.
 
-## v0.2.1
+## Current status (v0.2.1)
 
-The roles and links across three related repositories have been clarified. This repository is the **canonical catalog** for currently published sites, services, articles, and projects. `watanabe3tipapa` introduces the person and their work, while `next` records architecture, publishing, and operational decisions.
+The roles and links across three related repositories are clarified. This repository is the canonical catalog for currently published assets and their update status. Related repositories and roles:
 
-| Repository | Public destination | Role |
-| --- | --- | --- |
-| `watanabe3tipapa` | [Personal portal](https://watanabe3tipapa.github.io/watanabe3tipapa/) | Entry point for activity, work, and contact information |
-| `watanabe3tipapa.github.io` | [Current sites & services](https://watanabe3tipapa.github.io/index/) | Canonical catalog of currently published assets and their update status |
-| `next` | [next.watanabe3ti.com](https://next.watanabe3ti.com/) | Record of design intent, architecture, publishing paths, and operations |
+- `watanabe3tipapa` — Personal portal; entry point for activity, work, and contact information
+- `watanabe3tipapa.github.io` — Current sites & services; canonical catalog of published assets (this repository)
+- `next` — Record of design intent, architecture, publishing paths, and operations
 
-## Features
+(Referenced public destinations are listed in the site content.)
+
+## Overview
 
 - Static website powered by Quarto
 - Soft Neo-Brutalism theme with custom SCSS
 - "Terminal no Shiwaza" workshop series
 - Toolsmith project portfolio
 
-## Local Development
+## Local development
+
+Prerequisite: Install Quarto (https://quarto.org/docs/get-started/)
+
+To preview the site locally and to render the site (these commands are used in this project):
 
 ```bash
-# Prerequisites: Install Quarto
-# https://quarto.org/docs/get-started/
-
 # Preview the site locally
 quarto preview
 
@@ -41,7 +42,9 @@ quarto render
 # Output directory: docs/ (published to GitHub Pages)
 ```
 
-## Project Structure
+## Project structure
+
+A high-level view of files and directories in this repository:
 
 ```
 .
@@ -61,10 +64,16 @@ quarto render
 └── ECOSYSTEM.md         # Role split across the three repositories
 ```
 
+## Development & maintenance
+
+This repository is presented as the canonical catalog and the source for the published site. See CHANGELOG.md for version history and ECOSYSTEM.md for notes about the repository role relative to other related repositories.
+
 ## License
 
-Content is licensed under [CC BY-SA 4.0](LICENSE).
+Content is licensed under CC BY-SA 4.0. See LICENSE for details.
 
 ## Contact
 
-GitHub: [https://github.com/watanabe3tipapa/watanabe3tipapa.github.io](https://github.com/watanabe3tipapa/watanabe3tipapa.github.io)
+Repository: https://github.com/watanabe3tipapa/watanabe3tipapa.github.io
+
+Site (published): https://watanabe3tipapa.github.io/
